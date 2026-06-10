@@ -3,7 +3,7 @@ Traditional Chinese Medicine (TCM) prescriptions are grounded in a diagnostic re
 <img width="1472" height="607" alt="5194951d-b994-4db2-8ee6-156b2219245c" src="https://github.com/user-attachments/assets/5c385904-b837-4ab9-ac26-add08f1b5739" />
 Explicit TCM reasoning chain from symptoms to prescription candidates.} The figure illustrates the conceptual hierarchy underlying the proposed framework, in which symptom inputs are progressively mapped to therapeutic functions, grounded into candidate molecular representations (SMILES), back-mapped to herbs, and finally aggregated into prescription candidates. The Mahuang Tang pathway is shown as the primary route, while Xiao Qing Long Tang is included as a related prescription candidate, highlighting the interpretable symptom--function--molecule--herb--prescription chain formalized in this study.
 
-## Requirement
+# Requirement
 Main packages:
 python==3.9.0;
 torch==1.13.0;
@@ -12,3 +12,5 @@ pandas==1.5.2;
 numpy==1.23.5;
 nltk==3.7
 
+#Current process
+data.xslx is the dataset we collected, and main.py is the process of our model training. After the training is completed, the workflow is realized through use.py. The operations include symptom input, RAG enhancement, filtering input, molecule generation, vector similarity search, mapping of medicinal materials and matching of prescriptions, etc.
