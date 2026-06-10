@@ -12,5 +12,5 @@ pandas==1.5.2;
 numpy==1.23.5;
 nltk==3.7
 
-#Current process
+# Current process
 data.xslx is the dataset we collected, and main.py is the process of our model training. After the training is completed, the workflow is realized through use.py. The operations include symptom input, RAG enhancement, filtering input, molecule generation, vector similarity search, mapping of medicinal materials and matching of prescriptions, etc.
