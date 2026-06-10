@@ -18,7 +18,7 @@ from transformers import PreTrainedModel, GenerationMixin
 from transformers.modeling_outputs import BaseModelOutput
 import torch.nn.functional as F
 import torch
-torch.cuda.empty_cache()  # 释放未使用的缓存
+torch.cuda.empty_cache()  
 from transformers.modeling_utils import PreTrainedModel
 
 
@@ -69,7 +69,7 @@ class GatingNetwork(nn.Module):
         self.top_k = top_k
         nn.init.xavier_uniform_(self.classifier.weight)
         nn.init.zeros_(self.classifier.bias)
-        self.last_balancing_loss = None  # 👈 保存负载均衡 loss
+        self.last_balancing_loss = None  
 
     def forward(self, hidden_states, attention_mask=None):
         x = hidden_states.transpose(0, 1)  # [L, B, D]
@@ -112,7 +112,7 @@ class MoEBlock(nn.Module):
             expert_weight = topk_weights[:, :, k]  # [B, L]
 
             for i, expert in enumerate(self.experts):
-                # 创建一个 mask: [B, L]，表示哪些位置选择了当前专家
+           
                 mask = (expert_ids == i)
                 if mask.sum() == 0:
                     continue
@@ -125,7 +125,7 @@ class MoEBlock(nn.Module):
                 expert_out = expert(selected_tokens.unsqueeze(0), selected_mask.unsqueeze(0) if selected_mask is not None else None)[0]
                 expert_out = expert_out.squeeze(0)
 
-                # 加权输出写回
+            
                 weighted_out = expert_out * expert_weight[mask].unsqueeze(-1)  # [N, D]
                 moe_output[mask] += weighted_out
 
@@ -174,7 +174,7 @@ class MoEEncoder(PreTrainedModel):
         return BaseModelOutput(
             last_hidden_state=hidden_states,
             hidden_states=all_hidden_states,
-            attentions=None  # 你没有 attentions 的实现，直接写 None 即可
+            attentions=None  
         )
 
 
@@ -282,7 +282,7 @@ class HFMoET5Model(T5PreTrainedModel, GenerationMixin):
         }
 
 
-# 自定义数据集类保持不变
+
 class pre_dataset(Dataset):
     def __init__(self, pth, pth2, pth3, max_length=512):
         self.data = joblib.load(pth)
@@ -308,7 +308,7 @@ class pre_dataset(Dataset):
         labels[:min(self.len, len(out))] = torch.tensor(out[:min(self.len, len(out))])
         return inp_ids.long(), att_msk.long(), labels.long()
 
-# 训练主函数
+
 def main(args):
     # 设置随机种子
     random.seed(args.seed)
@@ -318,16 +318,15 @@ def main(args):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     print('加载tokenizer...')
-    # 初始化 tokenizer
+ 
     tokenizer = T5Tokenizer.from_pretrained("t5-base")
 
-    # 创建模型配置（确保和你的自定义配置兼容）
     config = T5Config.from_pretrained("t5-small")
 
     config.num_experts = 6  # 设置专家数量，与你模型中一致
     config.use_cache = True  # 允许使用 past_key_values
 
-    # 初始化模型
+   
     model = HFMoET5Model(config)
 
     model = model.to(device)
@@ -358,24 +357,23 @@ def main(args):
             loss.backward()
             avg_loss += loss.item()
 
-            # 梯度累积
+        
             if (idx + 1) % args.gradient_accumulation_steps == 0:
                 optimizer.step()
                 optimizer.zero_grad()
                 global_step += 1
 
-                # 打印训练信息
                 if global_step % 25 == 0:
                     print(f'步骤: {global_step}, 损失: {avg_loss / 25:.4f}')
                     avg_loss = 0
 
-                # 保存模型
+              
                 if global_step % 300 == 0 and global_step > args.step_pre:
                     torch.save(model.state_dict(), args.save_pth)
                     print(f'模型已保存至 {args.save_pth}')
 
 
-                # 检查是否完成训练
+              
                 if global_step >= args.global_step:
                     return
 
