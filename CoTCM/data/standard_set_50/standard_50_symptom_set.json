@@ -1,13 +1,13 @@
 [
   {
     "case_id": "S001",
-    "symptom_text_zh": "口眼歪斜、语言謇涩、半身不遂、关节痹痛、手足不温",
+    "symptom_text_zh": "便秘、口干舌燥、湿邪引起的症状、肺热引起的症状、阳虚引起的症状",
     "symptom_items_zh": [
-      "口眼歪斜",
-      "语言謇涩",
-      "半身不遂",
-      "关节痹痛",
-      "手足不温"
+      "便秘",
+      "口干舌燥",
+      "湿邪引起的症状",
+      "肺热引起的症状",
+      "阳虚引起的症状"
     ],
     "reference_prescription": "小续命汤",
     "reference_herbs": [
@@ -565,35 +565,61 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of inducing sweating to disperse cold, diffusing the lungs to relieve wheezing, and promoting diuresis to reduce edema.",
-      "It has the effects of dispelling wind and eliminating dampness, promoting diuresis to reduce edema, and alleviating pain.",
-      "It has the effects of greatly tonifying primordial qi, restoring pulses and securing collapse, tonifying the spleen and nourishing the lungs, promoting fluid production, and tranquilizing the mind.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage.",
-      "It has the effects of tonifying fire to assist yang, guiding fire back to its origin, dispersing cold to relieve pain, and activating blood circulation to unblock menstruation.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of stopping cough and calming wheezing, moistening intestines to relieve constipation, and diffusing the lungs to release the exterior.",
-      "It has the effects of tonifying the life-gate fire, warming and transforming cold-dampness, restoring yang, supplementing yang, and strengthening spleen yang.",
-      "It has the effects of releasing the exterior and dispelling wind, overcoming dampness, and stopping convulsions.",
-      "It has the effects of resolving phlegm to stop cough, descending rebellion to arrest vomiting, releasing the exterior, and dispersing wind-cold."
-    ],
     "statistics": {
       "num_symptom_items": 5,
       "num_reference_herbs": 12,
       "num_molecules": 52
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260711,
+      "full_symptom_pool": [
+        "感冒",
+        "肺热引起的咳嗽",
+        "水肿",
+        "风寒",
+        "元气不足",
+        "心慌心跳",
+        "心悸不安",
+        "口干舌燥",
+        "脾胃虚弱",
+        "湿热引起的症状",
+        "火毒引起的症状",
+        "出血",
+        "阳虚引起的症状",
+        "血瘀痛经",
+        "脾气虚弱",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "疼痛不适",
+        "肝气不舒",
+        "月经失调",
+        "多汗",
+        "血瘀引起的症状",
+        "气滞引起的不适",
+        "风寒引起的不适",
+        "咳嗽",
+        "哮喘",
+        "便秘",
+        "肺热引起的症状",
+        "肾阳虚引起的症状",
+        "寒湿引起的疼痛",
+        "湿邪引起的症状",
+        "痉挛",
+        "恶心呕吐"
+      ]
     }
   },
   {
     "case_id": "S002",
-    "symptom_text_zh": "红色丘疹、脓水浸淫、夜间剧痒、心烦失眠、血虚",
+    "symptom_text_zh": "风邪引起的症状、瘙痒、多汗",
     "symptom_items_zh": [
-      "红色丘疹",
-      "脓水浸淫",
-      "夜间剧痒",
-      "心烦失眠",
-      "血虚"
+      "风邪引起的症状",
+      "瘙痒",
+      "多汗"
     ],
     "reference_prescription": "当归饮子",
     "reference_herbs": [
@@ -1111,34 +1137,55 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of pacifying the liver to relieve stagnation, activating blood circulation to dispel wind, improving vision, and stopping itching.",
-      "It has the effects of releasing the exterior and dispelling wind, overcoming dampness, and stopping convulsions.",
-      "It has the effects of dispersing wind-cold, promoting eruption to relieve itching, and stopping bleeding.",
-      "It has the effects of detoxifying, relieving pain and swelling, and moistening the intestines to relieve constipation.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of resolving phlegm to stop cough, descending rebellion to arrest vomiting, releasing the exterior, and dispersing wind-cold.",
-      "It has the effects of tonifying qi to secure the exterior, stopping sweating, expelling toxins, promoting tissue regeneration, and inducing diuresis to reduce swelling."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 3,
       "num_reference_herbs": 11,
       "num_molecules": 50
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260712,
+      "full_symptom_pool": [
+        "血虚",
+        "月经失调",
+        "疼痛",
+        "便秘",
+        "肝气不畅引起的疼痛",
+        "多汗",
+        "血瘀引起的症状",
+        "气滞引起的不适",
+        "风邪引起的症状",
+        "肾精不足",
+        "阴虚",
+        "肝气郁结",
+        "瘙痒",
+        "湿邪引起的症状",
+        "痉挛",
+        "风寒引起的不适",
+        "疹痒",
+        "出血",
+        "毒素引起的症状",
+        "肿痛",
+        "脾气虚弱",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "疼痛不适",
+        "恶心呕吐",
+        "水肿"
+      ]
     }
   },
   {
     "case_id": "S003",
-    "symptom_text_zh": "心烦失眠、口燥咽干、面赤升火、遗精滑泄、腰膝酸软",
+    "symptom_text_zh": "脾气虚弱、脾胃虚弱、口干舌燥、出血",
     "symptom_items_zh": [
-      "心烦失眠",
-      "口燥咽干",
-      "面赤升火",
-      "遗精滑泄",
-      "腰膝酸软"
+      "脾气虚弱",
+      "脾胃虚弱",
+      "口干舌燥",
+      "出血"
     ],
     "reference_prescription": "清心莲子饮",
     "reference_herbs": [
@@ -1559,32 +1606,51 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage.",
-      "It has the effects of nourishing yin to promote fluid production, moistening the lungs, and clearing heart heat.",
-      "It has the effects of cooling blood, clearing deficient heat, and clearing lung heat.",
-      "It has the effects of cooling blood, clearing heat and draining dampness, and detoxifying.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of consolidating essence, nourishing the heart to calm the spirit, fortifying the spleen to stop diarrhea, and tonifying the kidneys.",
-      "It has the effects of promoting diuresis and draining dampness, strengthening the spleen and harmonizing the stomach, as well as calming the heart and tranquilizing the mind.",
-      "It has the effects of greatly tonifying primordial qi, restoring pulses and securing collapse, tonifying the spleen and nourishing the lungs, promoting fluid production, and tranquilizing the mind.",
-      "It has the effects of tonifying qi to secure the exterior, stopping sweating, expelling toxins, promoting tissue regeneration, and inducing diuresis to reduce swelling."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 9,
       "num_molecules": 38
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260713,
+      "full_symptom_pool": [
+        "湿热引起的症状",
+        "火毒引起的症状",
+        "出血",
+        "阴虚",
+        "肺燥引起的咳嗽",
+        "血热引起的症状",
+        "肺热引起的咳嗽",
+        "虚热引起的不适",
+        "脾气虚弱",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "疼痛不适",
+        "脾虚引起的症状",
+        "肾虚引起的症状",
+        "心悸不安",
+        "精神不安",
+        "水肿",
+        "脾胃虚弱",
+        "元气不足",
+        "心慌心跳",
+        "口干舌燥",
+        "多汗",
+        "毒素引起的症状"
+      ]
     }
   },
   {
     "case_id": "S004",
-    "symptom_text_zh": "舌强不语、足废不用、上热下寒、面赤如妆、足冷过膝",
+    "symptom_text_zh": "风邪引起的症状、寒湿引起的疼痛、肾阳虚引起的症状",
     "symptom_items_zh": [
-      "舌强不语",
-      "足废不用",
-      "上热下寒",
-      "面赤如妆",
-      "足冷过膝"
+      "风邪引起的症状",
+      "寒湿引起的疼痛",
+      "肾阳虚引起的症状"
     ],
     "reference_prescription": "地黄饮子",
     "reference_herbs": [
@@ -2024,38 +2090,67 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of tonifying kidney yang, strengthening tendons and bones, and dispelling wind.",
-      "It has the effects of tonifying and benefiting the liver and kidneys, astringing essence to secure collapse.",
-      "It has the effects of promoting diuresis and draining dampness, strengthening the spleen and harmonizing the stomach, as well as calming the heart and tranquilizing the mind.",
-      "It has the effects of benefiting the stomach to promote fluid production, nourishing yin to clear heat.",
-      "It has the effects of tonifying kidney yang, replenishing essence and blood, and moistening the intestines to relieve constipation.",
-      "It has the effects of tonifying the life-gate fire, warming and transforming cold-dampness, restoring yang, supplementing yang, and strengthening spleen yang.",
-      "It has the effects of astringing and consolidating, replenishing qi to promote fluid production, and tonifying the kidneys to calm the heart.",
-      "It has the effects of tonifying fire to assist yang, guiding fire back to its origin, dispersing cold to relieve pain, and activating blood circulation to unblock menstruation.",
-      "It has the effects of nourishing yin to promote fluid production, moistening the lungs, and clearing heart heat.",
-      "It has the effects of resolving dampness, transforming phlegm to open orifices, reducing swelling and alleviating pain, moving qi, dispelling wind, and relieving impediment .",
-      "It has the effects of calming the spirit to enhance cognition, eliminating phlegm, and reducing swelling.",
-      "It has the effects of dissipating wind-heat, clearing the head and eyes, and promoting eruption .",
-      "It has the effects of resolving phlegm to stop cough, descending rebellion to arrest vomiting, releasing the exterior, and dispersing wind-cold.",
-      "It has the effects of tonifying the spleen and stomach, harmonizing blood, calming the spirit, replenishing qi, and nourishing blood."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 3,
       "num_reference_herbs": 15,
       "num_molecules": 63
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260714,
+      "full_symptom_pool": [
+        "肾精不足",
+        "血虚",
+        "阴虚",
+        "肾阳虚引起的症状",
+        "筋骨无力",
+        "风邪引起的症状",
+        "肝肾不足引起的症状",
+        "遗精",
+        "腹泻",
+        "水肿",
+        "脾胃虚弱",
+        "心悸不安",
+        "胃虚引起的不适",
+        "口干舌燥",
+        "精血不足",
+        "便秘",
+        "脾胃虚寒",
+        "阳气不足",
+        "寒湿引起的疼痛",
+        "多汗",
+        "气虚",
+        "疼痛",
+        "经络不畅",
+        "肺燥引起的咳嗽",
+        "心火旺盛",
+        "湿邪引起的症状",
+        "痰瘀阻窍引起的症状",
+        "肿痛",
+        "神志不清",
+        "痰湿引起的症状",
+        "肿胀",
+        "风热引起的症状",
+        "头晕",
+        "视力模糊",
+        "疹出不畅",
+        "咳嗽多痰",
+        "恶心呕吐",
+        "风寒感冒",
+        "气血不足"
+      ]
     }
   },
   {
     "case_id": "S005",
-    "symptom_text_zh": "咳声粗重、痰黄黏稠、咽喉干痛、鼻息灼热、胸胁胀痛",
+    "symptom_text_zh": "肺燥引起的咳嗽、热盛引起的烦躁、脾胃虚弱",
     "symptom_items_zh": [
-      "咳声粗重",
-      "痰黄黏稠",
-      "咽喉干痛",
-      "鼻息灼热",
-      "胸胁胀痛"
+      "肺燥引起的咳嗽",
+      "热盛引起的烦躁",
+      "脾胃虚弱"
     ],
     "reference_prescription": "清金化痰汤",
     "reference_herbs": [
@@ -2490,34 +2585,54 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage.",
-      "It has the effects of purging fire to relieve vexation, clearing heat to promote diuresis, and cooling blood to detoxify.",
-      "It has the effects of diffusing the lungs, relieving sore throat, eliminating phlegm, and draining pus.",
-      "It has the effects of nourishing yin to promote fluid production, moistening the lungs, and clearing heart heat.",
-      "It has the effects of relieving asthma, promoting diuresis to reduce edema, and clearing lung heat.",
-      "It has the effects of clearing heat to transform phlegm, relieving stagnation to dissipate nodules.",
-      "It has the effects of clearing heat and purging fire, promoting fluid production and moistening dryness.",
-      "It has the effects of moistening the intestines to relieve constipation, and protecting cardiovascular health.",
-      "It has the effects of transforming phlegm, moving qi to relieve middle-jiao distension, dispelling cold, fortifying the stomach, regulating qi, and drying dampness.",
-      "It has the effects of promoting diuresis and draining dampness, strengthening the spleen and harmonizing the stomach, as well as calming the heart and tranquilizing the mind.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 3,
       "num_reference_herbs": 11,
       "num_molecules": 47
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260715,
+      "full_symptom_pool": [
+        "湿热引起的症状",
+        "出血",
+        "热盛引起的烦躁",
+        "小便不利",
+        "血液热毒引起的症状",
+        "咽喉疼痛",
+        "阴虚",
+        "肺燥引起的咳嗽",
+        "心火旺盛",
+        "肺热引起的咳嗽",
+        "水肿",
+        "呼吸不畅",
+        "痰湿引起的症状",
+        "气滞引起的不适",
+        "热毒引起的症状",
+        "口干舌燥",
+        "便秘",
+        "心血管疾病",
+        "寒湿引起的脾胃不适",
+        "脾胃虚弱",
+        "心悸不安",
+        "脾气虚弱",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "疼痛不适"
+      ]
     }
   },
   {
     "case_id": "S006",
-    "symptom_text_zh": "咳声重浊、痰黄稠黏、气息粗促、久咳声哑、舌红苔黄腻",
+    "symptom_text_zh": "寒湿引起的脾胃不适、心悸不安、心火旺盛、便秘",
     "symptom_items_zh": [
-      "咳声重浊",
-      "痰黄稠黏",
-      "气息粗促",
-      "久咳声哑",
-      "舌红苔黄腻"
+      "寒湿引起的脾胃不适",
+      "心悸不安",
+      "心火旺盛",
+      "便秘"
     ],
     "reference_prescription": "清肺汤",
     "reference_herbs": [
@@ -3144,38 +3259,66 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage.",
-      "It has the effects of diffusing the lungs, relieving sore throat, eliminating phlegm, and draining pus.",
-      "It has the effects of promoting diuresis and draining dampness, strengthening the spleen and harmonizing the stomach, as well as calming the heart and tranquilizing the mind.",
-      "It has the effects of transforming phlegm, moving qi to relieve middle-jiao distension, dispelling cold, fortifying the stomach, regulating qi, and drying dampness.",
-      "It has the effects of clearing heat to transform phlegm, relieving stagnation to dissipate nodules.",
-      "It has the effects of relieving asthma, promoting diuresis to reduce edema, and clearing lung heat.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of nourishing yin to promote fluid production, regulating the lungs and clearing heart heat.",
-      "It has the effects of purging fire to relieve vexation, clearing heat to promote diuresis, and cooling blood to detoxify.",
-      "It has the effects of stopping cough and calming wheezing, moistening intestines to relieve constipation, and diffusing the lungs to release the exterior.",
-      "It has the effects of nourishing yin to promote fluid production, moistening the lungs, and clearing heart heat.",
-      "It has the effects of astringing and consolidating, replenishing qi to promote fluid production, and tonifying the kidneys to calm the heart.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of resolving phlegm to stop cough, descending rebellion to arrest vomiting, releasing the exterior, and dispersing wind-cold.",
-      "It has the effects of tonifying the spleen and stomach, harmonizing blood, calming the spirit, replenishing qi, and nourishing blood."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 15,
       "num_molecules": 65
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260716,
+      "full_symptom_pool": [
+        "湿热引起的症状",
+        "火毒引起的症状",
+        "出血",
+        "流产",
+        "肺热引起的咽喉疼痛",
+        "水肿",
+        "脾胃虚弱",
+        "心悸不安",
+        "痰湿引起的症状",
+        "寒湿引起的脾胃不适",
+        "痰湿引起的结节",
+        "气滞引起的不适",
+        "咳嗽多痰",
+        "肺热引起的症状",
+        "血虚",
+        "月经失调",
+        "疼痛",
+        "便秘",
+        "阴虚",
+        "心火旺盛",
+        "火热引起的烦躁",
+        "小便不利",
+        "血液热毒引起的症状",
+        "咳嗽",
+        "哮喘",
+        "肺燥引起的咳嗽",
+        "气虚引起的水肿",
+        "肾虚引起的头晕失眠",
+        "脾气虚弱",
+        "肌肉抽搐",
+        "药物相互作用",
+        "恶心呕吐",
+        "风寒感冒",
+        "寒湿引起的疼痛",
+        "气血不足",
+        "失眠不安",
+        "气血两虚症状"
+      ]
     }
   },
   {
     "case_id": "S007",
-    "symptom_text_zh": "眩晕如坐舟船、头痛昏蒙、恶心呕吐、胸膈痞闷、舌苔白腻水滑",
+    "symptom_text_zh": "寒湿引起的脾胃不适、水肿、恶心呕吐、脾胃虚弱",
     "symptom_items_zh": [
-      "眩晕如坐舟船",
-      "头痛昏蒙",
+      "寒湿引起的脾胃不适",
+      "水肿",
       "恶心呕吐",
-      "胸膈痞闷",
-      "舌苔白腻水滑"
+      "脾胃虚弱"
     ],
     "reference_prescription": "半夏白术天麻汤",
     "reference_herbs": [
@@ -3586,31 +3729,48 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of descending rebellion to stop vomiting, drying dampness to transform phlegm, and dissipating masses to resolve stagnation.",
-      "It has the effects of pacifying the liver to extinguish wind, and dispelling wind to calm convulsions.",
-      "It has the effects of promoting diuresis and draining dampness, strengthening the spleen and harmonizing the stomach, as well as calming the heart and tranquilizing the mind.",
-      "It has the effects of transforming phlegm, moving qi to relieve middle-jiao distension, dispelling cold, fortifying the stomach, regulating qi, and drying dampness.",
-      "It has the effects of strengthening the spleen and tonifying qi, drying dampness and promoting diuresis, stopping sweating, and preventing miscarriage.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of resolving phlegm to stop cough, descending rebellion to arrest vomiting, releasing the exterior, and dispersing wind-cold.",
-      "It has the effects of tonifying the spleen and stomach, harmonizing blood, calming the spirit, replenishing qi, and nourishing blood."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 8,
       "num_molecules": 37
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260717,
+      "full_symptom_pool": [
+        "呕吐",
+        "痰湿引起的结块",
+        "气滞引起的不适",
+        "肝阳上亢引起的症状",
+        "风寒引起的不适",
+        "水肿",
+        "脾胃虚弱",
+        "心悸不安",
+        "痰湿引起的症状",
+        "寒湿引起的脾胃不适",
+        "脾气虚弱",
+        "流产",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "疼痛",
+        "药物相互作用",
+        "恶心呕吐",
+        "风寒感冒",
+        "气血两虚"
+      ]
     }
   },
   {
     "case_id": "S008",
-    "symptom_text_zh": "经前少腹灼痛、得热反剧、经前乳胀、烦躁易怒、肝郁气滞",
+    "symptom_text_zh": "痛经、咳嗽多痰、血瘀引起的症状、血热症状",
     "symptom_items_zh": [
-      "经前少腹灼痛",
-      "得热反剧",
-      "经前乳胀",
-      "烦躁易怒",
-      "肝郁气滞"
+      "痛经",
+      "咳嗽多痰",
+      "血瘀引起的症状",
+      "血热症状"
     ],
     "reference_prescription": "宣郁通经汤",
     "reference_herbs": [
@@ -4064,33 +4224,54 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of clearing heat and cooling blood, activating blood circulation and dissipating blood stasis.",
-      "It has the effects of purging fire to relieve vexation, clearing heat to promote diuresis, and cooling blood to detoxify.",
-      "It has the effects of eliminating phlegm to stop cough, exerting anti-inflammatory and antibacterial actions, and promoting bowel movements.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of dispersing and reducing fever, soothing the liver, and lifting yang.",
-      "It has the effects of relieving pain, moving qi to soothe the liver, preventing miscarriage, and regulating menstruation.",
-      "It has the effects of relieving pain, moving qi, breaking blood stasis, and unblocking menstruation.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 10,
       "num_molecules": 41
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260718,
+      "full_symptom_pool": [
+        "肝郁气滞",
+        "痛经",
+        "多汗",
+        "血虚",
+        "月经失调",
+        "疼痛",
+        "便秘",
+        "热毒引起的症状",
+        "血瘀引起的症状",
+        "火热引起的烦躁",
+        "小便不利",
+        "血热症状",
+        "咳嗽多痰",
+        "炎症",
+        "细菌感染",
+        "脾气虚弱",
+        "肌肉抽搐",
+        "药物相互作用",
+        "发热",
+        "肝气不舒",
+        "阳气不足",
+        "流产",
+        "气滞血瘀",
+        "湿热",
+        "出血"
+      ]
     }
   },
   {
     "case_id": "S009",
-    "symptom_text_zh": "全身关节游走性疼痛、关节肿胀麻木、身体羸瘦、头晕气短、恶心欲吐",
+    "symptom_text_zh": "风湿性疾病、痉挛、疼痛、多汗",
     "symptom_items_zh": [
-      "全身关节游走性疼痛",
-      "关节肿胀麻木",
-      "身体羸瘦",
-      "头晕气短",
-      "恶心欲吐"
+      "风湿性疾病",
+      "痉挛",
+      "疼痛",
+      "多汗"
     ],
     "reference_prescription": "桂枝芍药知母汤",
     "reference_herbs": [
@@ -4529,32 +4710,50 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of warming meridians and dredging collaterals, releasing the exterior, dispersing wind-cold, and unblocking yang.",
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of inducing sweating to disperse cold, diffusing the lungs to relieve wheezing, and promoting diuresis to reduce edema.",
-      "It has the effects of resolving phlegm to stop cough, descending rebellion to arrest vomiting, releasing the exterior, and dispersing wind-cold.",
-      "It has the effects of strengthening the spleen and tonifying qi, drying dampness and promoting diuresis, stopping sweating, and preventing miscarriage.",
-      "It has the effects of clearing heat and purging fire, promoting fluid production and moistening dryness.",
-      "It has the effects of releasing the exterior and dispelling wind, overcoming dampness, and stopping convulsions.",
-      "It has the effects of tonifying the life-gate fire, warming and transforming cold-dampness, restoring yang, supplementing yang, and strengthening spleen yang."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 9,
       "num_molecules": 40
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260719,
+      "full_symptom_pool": [
+        "风寒感冒",
+        "肢体麻木",
+        "阳气不足",
+        "肝郁气滞",
+        "月经失调",
+        "多汗",
+        "脾胃虚弱",
+        "热毒引起的症状",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "疼痛",
+        "肺热引起的咳嗽",
+        "水肿",
+        "恶心呕吐",
+        "易流产",
+        "口干舌燥",
+        "便秘",
+        "风湿性疾病",
+        "肢体疼痛",
+        "痉挛",
+        "内脏阳气不足",
+        "精神不安"
+      ]
     }
   },
   {
     "case_id": "S010",
-    "symptom_text_zh": "恶寒无汗、头身疼痛、咳喘痰多、喉中痰鸣、胸腹胀憋闷",
+    "symptom_text_zh": "呕吐、虚汗、气喘",
     "symptom_items_zh": [
-      "恶寒无汗",
-      "头身疼痛",
-      "咳喘痰多",
-      "喉中痰鸣",
-      "胸腹胀憋闷"
+      "呕吐",
+      "虚汗",
+      "气喘"
     ],
     "reference_prescription": "厚朴麻黄汤",
     "reference_herbs": [
@@ -4814,32 +5013,50 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of drying dampness to eliminate phlegm, descending qi to relieve fullness.",
-      "It has the effects of inducing sweating to disperse cold, diffusing the lungs to relieve wheezing, and promoting diuresis to reduce edema.",
-      "It has the effects of clearing heat and purging fire, exerting anti-inflammatory and anti-swelling actions, and quenching thirst to promote fluid production.",
-      "It has the effects of stopping cough and calming wheezing, moistening intestines to relieve constipation, and diffusing the lungs to release the exterior.",
-      "It has the effects of descending rebellion to stop vomiting, drying dampness to transform phlegm, and dissipating masses to resolve stagnation.",
-      "It has the effects of warming the middle jiao, warming the lungs to transform retained fluid, restoring yang, tonifying yang, strengthening spleen yang, and unblocking collaterals.",
-      "It has the effects of dispelling wind and scattering cold, unblocking orifices to relieve pain, and warming the lungs to transform retained fluid.",
-      "It has the effects of nourishing the heart to calm the spirit, clearing heat, promoting fluid production to quench thirst, and tonifying the kidneys.",
-      "It has the effects of astringing and consolidating, replenishing qi to promote fluid production, and tonifying the kidneys to calm the heart."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 3,
       "num_reference_herbs": 9,
       "num_molecules": 35
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260720,
+      "full_symptom_pool": [
+        "痰湿",
+        "胸腹胀",
+        "风寒感冒",
+        "哮喘",
+        "水肿",
+        "热毒引起的症状",
+        "肿胀",
+        "口干舌燥",
+        "咳嗽",
+        "气喘",
+        "便秘",
+        "呕吐",
+        "痞块",
+        "中焦寒湿",
+        "气虚",
+        "阳气不足",
+        "脾阳弱",
+        "关节疼痛",
+        "心悸不安",
+        "虚汗"
+      ]
     }
   },
   {
     "case_id": "S011",
-    "symptom_text_zh": "食不知味、食后腹胀、口燥舌干、肢体困重、面色㿠白",
+    "symptom_text_zh": "热毒引起的症状、痰湿、失眠不安、肝气不舒、发热",
     "symptom_items_zh": [
-      "食不知味",
-      "食后腹胀",
-      "口燥舌干",
-      "肢体困重",
-      "面色㿠白"
+      "热毒引起的症状",
+      "痰湿",
+      "失眠不安",
+      "肝气不舒",
+      "发热"
     ],
     "reference_prescription": "升阳益胃汤",
     "reference_herbs": [
@@ -5572,39 +5789,64 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of tonifying qi to secure the exterior, stopping sweating, expelling toxins, promoting tissue regeneration, and inducing diuresis to reduce swelling.",
-      "It has the effects of descending rebellion to stop vomiting, drying dampness to transform phlegm, and dissipating masses to resolve stagnation.",
-      "It has the effects of greatly tonifying primordial qi, restoring pulses and securing collapse, tonifying the spleen and nourishing the lungs, promoting fluid production, and tranquilizing the mind.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of releasing the exterior and dispelling wind, overcoming dampness, and stopping convulsions.",
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of dispersing cold, dispelling wind, eliminating dampness, and relieving pain.",
-      "It has the effects of dispelling wind and eliminating dampness, unblocking impediment and relieving pain.",
-      "It has the effects of harmonizing the stomach, descending rebellion to stop vomiting, regulating qi, and drying dampness to transform phlegm.",
-      "It has the effects of promoting diuresis and draining dampness, strengthening the spleen and harmonizing the stomach, as well as calming the heart and tranquilizing the mind.",
-      "It has the effects of promoting urination and clearing dampness-heat.",
-      "It has the effects of dispersing and reducing fever, soothing the liver, and lifting yang.",
-      "It has the effects of strengthening the spleen and tonifying qi, drying dampness and promoting diuresis, stopping sweating, and preventing miscarriage.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying.",
-      "It has the effects of resolving phlegm to stop cough, descending rebellion to arrest vomiting, releasing the exterior, and dispersing wind-cold.",
-      "It has the effects of tonifying the spleen and stomach, harmonizing blood, calming the spirit, replenishing qi, and nourishing blood."
-    ],
     "statistics": {
       "num_symptom_items": 5,
       "num_reference_herbs": 16,
       "num_molecules": 74
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260721,
+      "full_symptom_pool": [
+        "自汗",
+        "多汗",
+        "水肿",
+        "呕吐",
+        "胸腹胀",
+        "痞块",
+        "元气不足",
+        "脉弱",
+        "气虚咳嗽",
+        "心神不定",
+        "脾胃虚弱",
+        "热毒引起的症状",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "风寒感冒",
+        "风湿痹痛",
+        "痉挛",
+        "肝气不舒",
+        "痛经",
+        "寒冷引起的疼痛",
+        "肢体麻木",
+        "胃部不适",
+        "恶心呕吐",
+        "气滞引起的不适",
+        "痰湿",
+        "失眠不安",
+        "心悸不安",
+        "湿热",
+        "小便不利",
+        "发热",
+        "肝气郁结",
+        "阳虚引起的症状",
+        "习惯性流产",
+        "血液循环不畅"
+      ]
     }
   },
   {
     "case_id": "S012",
-    "symptom_text_zh": "色㿠白、大便溏薄、胁胀嗳气、舌淡胖有齿痕、脉弦缓无力",
+    "symptom_text_zh": "黏膜损伤、湿热、多汗、疼痛、水肿",
     "symptom_items_zh": [
-      "色㿠白",
-      "大便溏薄",
-      "胁胀嗳气",
-      "舌淡胖有齿痕",
-      "脉弦缓无力"
+      "黏膜损伤",
+      "湿热",
+      "多汗",
+      "疼痛",
+      "水肿"
     ],
     "reference_prescription": "完带汤",
     "reference_herbs": [
@@ -6047,33 +6289,58 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of strengthening the spleen and tonifying qi, drying dampness and promoting diuresis, stopping sweating, and preventing miscarriage.",
-      "It has the effects of tonifying the spleen and nourishing the stomach, promoting fluid production to benefit the lungs, and tonifying the kidneys to astringe essence.",
-      "It has the effects of greatly tonifying primordial qi, restoring pulses and securing collapse, tonifying the spleen and nourishing the lungs, promoting fluid production, and tranquilizing the mind.",
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of cooling blood, clearing heat and draining dampness, and detoxifying.",
-      "It has the effects of drying dampness to fortify the spleen, dispelling wind, scattering cold, and improving vision.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of harmonizing the stomach, descending rebellion to stop vomiting, regulating qi, and drying dampness to transform phlegm.",
-      "It has the effects of astringing to stop bleeding, exerting antibacterial and anti-inflammatory actions, and repairing mucous membranes.",
-      "It has the effects of dispersing and reducing fever, soothing the liver, and lifting yang."
-    ],
     "statistics": {
       "num_symptom_items": 5,
       "num_reference_herbs": 10,
       "num_molecules": 43
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260722,
+      "full_symptom_pool": [
+        "脾胃虚弱",
+        "水肿",
+        "多汗",
+        "先兆流产",
+        "肺燥引起的症状",
+        "肾虚引起的症状",
+        "气虚",
+        "心悸不安",
+        "失眠不安",
+        "肝阳上亢引起的头痛",
+        "月经失调",
+        "血热引起的症状",
+        "湿热",
+        "湿气重引起的症状",
+        "风寒引起的不适",
+        "视力模糊",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "疼痛",
+        "呕吐",
+        "气机不畅引起的不适",
+        "湿痰引起的症状",
+        "溃疡出血",
+        "感染炎症",
+        "黏膜损伤",
+        "发热",
+        "肝郁气滞",
+        "阳虚引起的症状"
+      ]
     }
   },
   {
     "case_id": "S013",
-    "symptom_text_zh": "痛如锥刺、夜间加重、舌紫黯瘀斑、脉沉涩、久痛不愈",
+    "symptom_text_zh": "肿胀、血虚引起的痛经、经闭、筋骨无力、血瘀引起的症状",
     "symptom_items_zh": [
-      "痛如锥刺",
-      "夜间加重",
-      "舌紫黯瘀斑",
-      "脉沉涩",
-      "久痛不愈"
+      "肿胀",
+      "血虚引起的痛经",
+      "经闭",
+      "筋骨无力",
+      "血瘀引起的症状"
     ],
     "reference_prescription": "身痛逐瘀汤",
     "reference_herbs": [
@@ -6500,35 +6767,57 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of dispelling wind-dampness, harmonizing blood and relaxing sinews, and clearing heat to promote diuresis.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of activating blood circulation to dispel stasis, and moistening intestines to relieve constipation.",
-      "It has the effects of activating blood circulation to promote menstruation, dissipating blood stasis and alleviating pain.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of dispersing cold, dispelling wind, eliminating dampness, and relieving pain.",
-      "It has the effects of activating blood circulation to relieve pain, reducing swelling, and promoting tissue regeneration.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of activating blood circulation to relieve pain, resolving food stagnation, transforming stasis to stop bleeding, and detoxifying.",
-      "It has the effects of relieving pain, moving qi to soothe the liver, preventing miscarriage, and regulating menstruation.",
-      "It has the effects of tonifying the liver and kidneys, strengthening tendons and bones, dispelling stasis to unblock menstruation, and guiding blood downward.",
-      "It has the effects of stopping convulsions, clearing heat, pacifying the liver to extinguish wind, calming wheezing, promoting diuresis, and unblocking collaterals."
-    ],
     "statistics": {
       "num_symptom_items": 5,
       "num_reference_herbs": 12,
       "num_molecules": 52
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260723,
+      "full_symptom_pool": [
+        "风湿痹痛",
+        "血瘀引起的关节疼痛",
+        "血瘀引起的症状",
+        "脾胃虚弱",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "疼痛",
+        "寒湿引起的痛症",
+        "风寒引起的关节疼痛",
+        "肿胀",
+        "组织损伤",
+        "血虚引起的痛经",
+        "便秘",
+        "食积",
+        "出血",
+        "痛症",
+        "肝气郁结",
+        "先兆流产",
+        "月经失调",
+        "肝肾亏虚",
+        "筋骨无力",
+        "痛经",
+        "经闭",
+        "癫痫抽搐",
+        "热症引起的症状",
+        "风热引起的咳嗽",
+        "水肿",
+        "经络不畅"
+      ]
     }
   },
   {
     "case_id": "S014",
-    "symptom_text_zh": "鼻塞涕多、外邪夹杂(或伴风寒、湿热）、肺虚、气短声低",
+    "symptom_text_zh": "月经失调、鼻塞、脾肺虚弱、肝功能异常",
     "symptom_items_zh": [
-      "鼻塞涕多",
-      "外邪夹杂(或伴风寒",
-      "湿热）",
-      "肺虚",
-      "气短声低"
+      "月经失调",
+      "鼻塞",
+      "脾肺虚弱",
+      "肝功能异常"
     ],
     "reference_prescription": "辛夷散",
     "reference_herbs": [
@@ -6885,33 +7174,55 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "\"It has the effects of dispersing wind-cold and unblocking the nasal passages.",
-      "It has the effects of dispelling wind and scattering cold, unblocking orifices to relieve pain, and warming the lungs to transform retained fluid.",
-      "It has the effects of expelling wind, scattering cold, eliminating dampness, and relieving pain.",
-      "It has the effects of sedation and hypnosis, analgesia, antipyresis and temperature reduction, liver protection, immunomodulation, anti-inflammation, and antiviral effects.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of activating blood circulation to unblock menstruation, and clearing heat to drain dampness.",
-      "It has the effects of releasing the exterior and dispelling wind, overcoming dampness, and stopping convulsions.",
-      "It has the effects of dispersing cold, dispelling wind, eliminating dampness, and relieving pain.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of dispersing wind and eliminating dampness, unblocking orifices to relieve pain, and reducing swelling to drain pus."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 10,
       "num_molecules": 44
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260724,
+      "full_symptom_pool": [
+        "鼻塞",
+        "流涕",
+        "头痛",
+        "风寒感冒",
+        "咳嗽",
+        "痰多引起的症状",
+        "气喘",
+        "风寒引起的不适",
+        "关节疼痛",
+        "肌肉疼痛",
+        "疼痛",
+        "发热",
+        "肝功能异常",
+        "炎症",
+        "病毒感染",
+        "血瘀引起的症状",
+        "高血压引起的头痛",
+        "月经失调",
+        "痛经",
+        "湿热引起的症状",
+        "湿邪引起的症状",
+        "脾肺虚弱",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "肿胀"
+      ]
     }
   },
   {
     "case_id": "S015",
-    "symptom_text_zh": "腰以下肿甚、腹胀便溏、四肢不温、痰湿引起的症状、胸闷不适",
+    "symptom_text_zh": "湿邪引起的症状、经络不畅、湿热引起的症状、痰湿引起的症状、神经系统功能失调",
     "symptom_items_zh": [
-      "腰以下肿甚",
-      "腹胀便溏",
-      "四肢不温",
+      "湿邪引起的症状",
+      "经络不畅",
+      "湿热引起的症状",
       "痰湿引起的症状",
-      "胸闷不适"
+      "神经系统功能失调"
     ],
     "reference_prescription": "实脾散",
     "reference_herbs": [
@@ -7314,33 +7625,52 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of drying dampness to eliminate phlegm, descending qi to relieve fullness.",
-      "It has the effects of strengthening the spleen and tonifying qi, drying dampness and promoting diuresis, stopping sweating, and preventing miscarriage.",
-      "It has the effects of pacifying the liver to relax sinews, and harmonizing the stomach to transform dampness.",
-      "It has the effects of moving qi to relieve pain, and fortifying the spleen to promote digestion.",
-      "It has the effects of drying dampness and warming the middle jiao, eliminating phlegm and stopping malaria.",
-      "It has the effects of killing parasites and resolving accumulation, descending qi, moving water, and stopping malaria.",
-      "It has the effects of tonifying the life-gate fire, warming and transforming cold-dampness, restoring yang, supplementing yang, and strengthening spleen yang.",
-      "It has the effects of promoting diuresis and draining dampness, strengthening the spleen and harmonizing the stomach, as well as calming the heart and tranquilizing the mind.",
-      "It has the effects of warming the middle jiao, warming the lungs to transform retained fluid, restoring yang, tonifying yang, strengthening spleen yang, and unblocking collaterals.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs."
-    ],
     "statistics": {
       "num_symptom_items": 5,
       "num_reference_herbs": 10,
       "num_molecules": 43
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260725,
+      "full_symptom_pool": [
+        "痰湿引起的症状",
+        "胸闷不适",
+        "胃胀",
+        "脾胃虚弱",
+        "湿热引起的症状",
+        "多汗",
+        "先兆流产",
+        "肝郁气滞",
+        "湿邪引起的症状",
+        "气滞引起的不适",
+        "疟疾",
+        "腹胀",
+        "水肿",
+        "寒湿引起的疼痛",
+        "阳虚引起的症状",
+        "脾胃虚寒",
+        "心悸不安",
+        "神经系统功能失调",
+        "中焦寒湿",
+        "经络不畅",
+        "脾气虚弱",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "疼痛"
+      ]
     }
   },
   {
     "case_id": "S016",
-    "symptom_text_zh": "牙龈肿烂出血、咽喉肿痛、身面发黄、小便黄赤、胸腹胀气短",
+    "symptom_text_zh": "高血脂、热毒引起的症状、发热",
     "symptom_items_zh": [
-      "牙龈肿烂出血",
-      "咽喉肿痛",
-      "身面发黄",
-      "小便黄赤",
-      "胸腹胀气短"
+      "高血脂",
+      "热毒引起的症状",
+      "发热"
     ],
     "reference_prescription": "甘露饮",
     "reference_herbs": [
@@ -7734,32 +8064,54 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of suppressing cough, relieving asthma, lowering blood sugar, and reducing inflammation.",
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of nourishing yin to promote fluid production, regulating the lungs and clearing heart heat.",
-      "It has the effects of regulating qi to relieve middle-jiao distension, moving stagnation to reduce bloating.",
-      "It has the effects of analgesia, antipyresis and temperature reduction, antihypertension, hypolipidemic, anticoagulant and antithrombotic, cholagogic, hepatoprotective, antiasthmatic, diuretic, anti-inflammatory, antibacterial, antiviral, antifungal, anti-intestinal-parasitic, and antitumor.",
-      "It has the effects of nourishing yin to promote fluid production, moistening the lungs, and clearing heart heat.",
-      "It has the effects of benefiting the stomach to promote fluid production, nourishing yin to clear heat.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 3,
       "num_reference_herbs": 10,
       "num_molecules": 40
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260726,
+      "full_symptom_pool": [
+        "咳嗽",
+        "哮喘",
+        "糖尿病",
+        "炎症",
+        "肾虚引起的症状",
+        "气血不足",
+        "阴虚引起的干燥",
+        "肺燥引起的症状",
+        "心火旺盛",
+        "中焦胀满",
+        "消化不良",
+        "发热",
+        "高血压",
+        "高血脂",
+        "血液循环不畅",
+        "肿瘤",
+        "胃虚引起的不适",
+        "肺热引起的症状",
+        "脾气虚弱",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "疼痛",
+        "热毒引起的症状",
+        "出血",
+        "先兆流产"
+      ]
     }
   },
   {
     "case_id": "S017",
-    "symptom_text_zh": "手足拘挛、关节僵硬、麻木刺痛、遇寒加重、风痹游走性疼痛",
+    "symptom_text_zh": "寒湿引起的疼痛、筋骨疼痛、肾虚引起的症状、脾胃虚弱",
     "symptom_items_zh": [
-      "手足拘挛",
-      "关节僵硬",
-      "麻木刺痛",
-      "遇寒加重",
-      "风痹游走性疼痛"
+      "寒湿引起的疼痛",
+      "筋骨疼痛",
+      "肾虚引起的症状",
+      "脾胃虚弱"
     ],
     "reference_prescription": "三痹汤",
     "reference_herbs": [
@@ -8437,39 +8789,60 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of tonifying the liver and kidneys, strengthening tendons and bones, dispelling stasis to unblock menstruation, and guiding blood downward.",
-      "It has the effects of stopping bleeding, strengthening tendons and bones, tonifying the liver and kidneys, and unblocking collaterals.",
-      "It has the effects of tonifying the liver and kidneys, strengthening tendons and bones, and preventing miscarriage (or stabilizing the fetus).",
-      "It has the effects of releasing the exterior and dispelling wind, overcoming dampness, and stopping convulsions.",
-      "It has the effects of tonifying fire to assist yang, guiding fire back to its origin, dispersing cold to relieve pain, and activating blood circulation to unblock menstruation.",
-      "It has the effects of dispelling wind and scattering cold, unblocking orifices to relieve pain, and warming the lungs to transform retained fluid.",
-      "It has the effects of greatly tonifying primordial qi, restoring pulses and securing collapse, tonifying the spleen and nourishing the lungs, promoting fluid production, and tranquilizing the mind.",
-      "It has the effects of promoting diuresis and draining dampness, strengthening the spleen and harmonizing the stomach, as well as calming the heart and tranquilizing the mind.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of dispelling wind-dampness, harmonizing blood and relaxing sinews, and clearing heat to promote diuresis.",
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of dispelling wind and eliminating dampness, unblocking impediment and relieving pain.",
-      "It has the effects of tonifying qi to secure the exterior, stopping sweating, expelling toxins, promoting tissue regeneration, and inducing diuresis to reduce swelling."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 16,
       "num_molecules": 73
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260727,
+      "full_symptom_pool": [
+        "肝肾不足引起的症状",
+        "筋骨疼痛",
+        "月经失调",
+        "出血",
+        "先兆流产",
+        "感冒",
+        "风湿引起的痛症",
+        "寒湿引起的疼痛",
+        "疼痛",
+        "风寒引起的不适",
+        "痹症",
+        "元气不足",
+        "脉弱",
+        "脾肺虚弱",
+        "水肿",
+        "心悸不安",
+        "脾胃虚弱",
+        "血虚",
+        "痛经",
+        "便秘",
+        "肝郁气滞",
+        "多汗",
+        "脾气虚弱",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "风湿痹症",
+        "肾虚引起的症状",
+        "气血不足",
+        "血瘀引起的症状",
+        "风寒",
+        "关节疼痛",
+        "毒疮"
+      ]
     }
   },
   {
     "case_id": "S018",
-    "symptom_text_zh": "手足无力、舌强语謇、血虚风动、血弱筋急、风湿引起的痛症",
+    "symptom_text_zh": "脾气虚弱、风湿痛、肌肉疼痛",
     "symptom_items_zh": [
-      "手足无力",
-      "舌强语謇",
-      "血虚风动",
-      "血弱筋急",
-      "风湿引起的痛症"
+      "脾气虚弱",
+      "风湿痛",
+      "肌肉疼痛"
     ],
     "reference_prescription": "大秦艽汤",
     "reference_herbs": [
@@ -9158,38 +9531,64 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of dispelling wind and eliminating dampness, unblocking impediment and relieving pain.",
-      "It has the effects of dispelling wind-dampness, harmonizing blood and relaxing sinews, and clearing heat to promote diuresis.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of dispelling wind and scattering cold, unblocking orifices to relieve pain, and warming the lungs to transform retained fluid.",
-      "It has the effects of dispersing cold, dispelling wind, eliminating dampness, and relieving pain.",
-      "It has the effects of releasing the exterior and dispelling wind, overcoming dampness, and stopping convulsions.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage.",
-      "It has the effects of clearing heat and purging fire, exerting anti-inflammatory and anti-swelling actions, and quenching thirst to promote fluid production.",
-      "It has the effects of dispersing wind and eliminating dampness, unblocking orifices to relieve pain, and reducing swelling to drain pus.",
-      "It has the effects of strengthening the spleen and tonifying qi, drying dampness and promoting diuresis, stopping sweating, and preventing miscarriage.",
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of promoting diuresis and draining dampness, strengthening the spleen and harmonizing the stomach, as well as calming the heart and tranquilizing the mind."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 3,
       "num_reference_herbs": 16,
       "num_molecules": 64
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260728,
+      "full_symptom_pool": [
+        "风湿引起的痛症",
+        "关节疼痛",
+        "风湿痹症",
+        "筋骨疼痛",
+        "水肿",
+        "肾阳虚引起的症状",
+        "肌肉疼痛",
+        "阳虚引起的症状",
+        "寒湿引起的疼痛",
+        "脾胃虚弱",
+        "血瘀引起的症状",
+        "气滞引起的不适",
+        "风寒",
+        "血虚",
+        "痛经",
+        "便秘",
+        "咳嗽",
+        "痰湿引起的症状",
+        "风寒湿引起的疼痛",
+        "湿气重引起的症状",
+        "痉挛",
+        "热毒引起的症状",
+        "湿热引起的症状",
+        "出血",
+        "先兆流产",
+        "炎症",
+        "肿胀",
+        "口干舌燥",
+        "风湿痛",
+        "局部肿胀",
+        "脾气虚弱",
+        "多汗",
+        "肾虚引起的症状",
+        "气血不足",
+        "心悸不安"
+      ]
     }
   },
   {
     "case_id": "S019",
-    "symptom_text_zh": "痈疽已成(局部红肿热痛)、正虚毒恋、脾胃虚弱、元气不足、心悸不安",
+    "symptom_text_zh": "湿热引起的症状、脾气虚弱、便秘、咳嗽多痰",
     "symptom_items_zh": [
-      "痈疽已成(局部红肿热痛)",
-      "正虚毒恋",
-      "脾胃虚弱",
-      "元气不足",
-      "心悸不安"
+      "湿热引起的症状",
+      "脾气虚弱",
+      "便秘",
+      "咳嗽多痰"
     ],
     "reference_prescription": "托里消毒散",
     "reference_herbs": [
@@ -9760,34 +10159,59 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of greatly tonifying primordial qi, restoring pulses and securing collapse, tonifying the spleen and nourishing the lungs, promoting fluid production, and tranquilizing the mind.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of tonifying qi to secure the exterior, stopping sweating, expelling toxins, promoting tissue regeneration, and inducing diuresis to reduce swelling.",
-      "It has the effects of strengthening the spleen and tonifying qi, drying dampness and promoting diuresis, stopping sweating, and preventing miscarriage.",
-      "It has the effects of promoting diuresis and draining dampness, strengthening the spleen and harmonizing the stomach, as well as calming the heart and tranquilizing the mind.",
-      "It has the effects of clearing heat and detoxifying, and cooling-dispersing wind-heat.",
-      "It has the effects of dispersing wind and eliminating dampness, unblocking orifices to relieve pain, and reducing swelling to drain pus.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of reducing swelling, killing parasites, and draining pus.",
-      "It has the effects of diffusing the lungs, relieving sore throat, eliminating phlegm, and draining pus."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 12,
       "num_molecules": 54
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260729,
+      "full_symptom_pool": [
+        "元气不足",
+        "心悸不安",
+        "失眠不安",
+        "脾胃虚弱",
+        "血瘀引起的症状",
+        "气滞",
+        "风寒",
+        "肝郁气滞",
+        "月经失调",
+        "多汗",
+        "血虚",
+        "痛经",
+        "便秘",
+        "疮毒",
+        "水肿",
+        "脾气虚弱",
+        "湿气重引起的症状",
+        "先兆流产",
+        "热毒引起的症状",
+        "风热引起的症状",
+        "局部肿胀",
+        "湿热引起的症状",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "消化不良",
+        "痈肿",
+        "蛆虫感染",
+        "咽喉疼痛",
+        "痰多引起的症状",
+        "肺部感染"
+      ]
     }
   },
   {
     "case_id": "S020",
-    "symptom_text_zh": "全头疼痛、风邪为患、气血失调、血虚、痛经",
+    "symptom_text_zh": "先兆流产、风寒、风寒湿引起的疼痛、湿热引起的症状、痛经",
     "symptom_items_zh": [
-      "全头疼痛",
-      "风邪为患",
-      "气血失调",
-      "血虚",
+      "先兆流产",
+      "风寒",
+      "风寒湿引起的疼痛",
+      "湿热引起的症状",
       "痛经"
     ],
     "reference_prescription": "清上蠲痛汤",
@@ -10301,36 +10725,55 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of dispersing wind and eliminating dampness, unblocking orifices to relieve pain, and reducing swelling to drain pus.",
-      "It has the effects of dispelling wind and scattering cold, unblocking orifices to relieve pain, and warming the lungs to transform retained fluid.",
-      "It has the effects of dispersing cold, dispelling wind, eliminating dampness, and relieving pain.",
-      "It has the effects of dispelling wind and eliminating dampness, unblocking impediment and relieving pain.",
-      "It has the effects of releasing the exterior and dispelling wind, overcoming dampness, and stopping convulsions.",
-      "It has the effects of clearing heat and detoxifying, dispersing wind, and pacifying the liver.",
-      "It has the effects of dispersing wind-heat, and clearing and benefiting the head and eyes.",
-      "It has the effects of drying dampness to fortify the spleen, dispelling wind, scattering cold, and improving vision.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage.",
-      "It has the effects of nourishing yin to promote fluid production, moistening the lungs, and clearing heart heat.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs."
-    ],
     "statistics": {
       "num_symptom_items": 5,
       "num_reference_herbs": 13,
       "num_molecules": 59
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260730,
+      "full_symptom_pool": [
+        "血虚",
+        "痛经",
+        "便秘",
+        "血瘀引起的症状",
+        "气滞引起的不适",
+        "风寒",
+        "局部肿胀",
+        "痰湿引起的症状",
+        "风寒湿引起的疼痛",
+        "风湿引起的痛症",
+        "痉挛",
+        "热毒引起的症状",
+        "风热感冒",
+        "头痛",
+        "眼睛不适",
+        "脾虚",
+        "眼睛湿润",
+        "湿热引起的症状",
+        "出血",
+        "先兆流产",
+        "阴虚",
+        "干咳",
+        "心悸不安",
+        "脾气虚弱",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "消化不良"
+      ]
     }
   },
   {
     "case_id": "S021",
-    "symptom_text_zh": "憎寒壮热、头目昏疼、脘腹胀、嗳腐食臭、呕恶痰多",
+    "symptom_text_zh": "眼睛湿润、脾虚、心悸不安",
     "symptom_items_zh": [
-      "憎寒壮热",
-      "头目昏疼",
-      "脘腹胀",
-      "嗳腐食臭",
-      "呕恶痰多"
+      "眼睛湿润",
+      "脾虚",
+      "心悸不安"
     ],
     "reference_prescription": "养胃汤",
     "reference_herbs": [
@@ -10733,32 +11176,50 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of drying dampness to eliminate phlegm, descending qi to relieve fullness.",
-      "It has the effects of drying dampness to fortify the spleen, dispelling wind, scattering cold, and improving vision.",
-      "It has the effects of descending rebellion to stop vomiting, drying dampness to transform phlegm, and dissipating masses to resolve stagnation.",
-      "It has the effects of transforming phlegm, moving qi to relieve middle-jiao distension, dispelling cold, fortifying the stomach, regulating qi, and drying dampness.",
-      "It has the effects of resolving turbidity with aromatic herbs, stimulating appetite to stop vomiting, and releasing the exterior to relieve summerheat.",
-      "It has the effects of drying dampness and warming the middle jiao, eliminating phlegm and stopping malaria.",
-      "It has the effects of promoting diuresis and draining dampness, strengthening the spleen and harmonizing the stomach, as well as calming the heart and tranquilizing the mind.",
-      "It has the effects of greatly tonifying primordial qi, restoring pulses and securing collapse, tonifying the spleen and nourishing the lungs, promoting fluid production, and tranquilizing the mind."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 3,
       "num_reference_herbs": 9,
       "num_molecules": 40
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260731,
+      "full_symptom_pool": [
+        "脾气虚弱",
+        "湿热引起的症状",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "消化不良",
+        "痰湿引起的胸闷不适",
+        "气胀",
+        "脾虚",
+        "眼睛湿润",
+        "呕吐",
+        "痰多引起的症状",
+        "腹胀",
+        "痰湿引起的症状",
+        "暑湿引起的不适",
+        "食欲不振",
+        "疟疾",
+        "水肿",
+        "脾胃虚弱",
+        "心悸不安",
+        "元气不足",
+        "失眠不安"
+      ]
     }
   },
   {
     "case_id": "S022",
-    "symptom_text_zh": "心悸恐慌、四肢抽搐、昼凉夜热、干咳或无咳、舌绛少苔或干裂",
+    "symptom_text_zh": "肾阴虚、出血、干咳、阴虚",
     "symptom_items_zh": [
-      "心悸恐慌",
-      "四肢抽搐",
-      "昼凉夜热",
-      "干咳或无咳",
-      "舌绛少苔或干裂"
+      "肾阴虚",
+      "出血",
+      "干咳",
+      "阴虚"
     ],
     "reference_prescription": "三甲复脉汤",
     "reference_herbs": [
@@ -11120,32 +11581,57 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of inducing anesthesia, sedating and hypnotizing, resisting gastric damage and ulcers, and regulating immunity.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of nourishing yin to promote fluid production, moistening the lungs, and clearing heart heat.",
-      "It has the effects of stopping bleeding, moistening dryness, nourishing blood, and replenishing yin.",
-      "It has the effects of activating blood circulation, moistening intestines to relieve constipation, and promoting diuresis to treat strangury.",
-      "It has the effects of nourishing yin to subdue yang, softening hardness and dissipating nodules, and reducing deficiency-heat.",
-      "It has the effects of nourishing yin to anchor yang, tonifying the kidney to strengthen bones, and enriching blood to nourish the heart."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 9,
       "num_molecules": 40
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260732,
+      "full_symptom_pool": [
+        "胃部不适",
+        "胃溃疡",
+        "免疫力低下",
+        "脾气虚弱",
+        "湿热引起的症状",
+        "咳嗽多痰",
+        "肌肉抽搐",
+        "消化不良",
+        "身体虚弱",
+        "精气不足",
+        "贫血",
+        "肝郁气滞",
+        "月经失调",
+        "多汗",
+        "阴虚",
+        "干咳",
+        "心悸不安",
+        "出血",
+        "干燥引起的不适",
+        "血虚",
+        "血瘀引起的症状",
+        "便秘",
+        "小便不利",
+        "痰多引起的症状",
+        "咽喉疼痛",
+        "肾阴虚",
+        "骨痛",
+        "心血不足引起的症状"
+      ]
     }
   },
   {
     "case_id": "S023",
-    "symptom_text_zh": "风痹（疼痛游走不定）、寒痹(冷痛剧烈、得温稍减)、湿痹(酸沉重着、阴雨天加重)",
+    "symptom_text_zh": "肾阳虚引起的症状、经期不调、风寒、血虚",
     "symptom_items_zh": [
-      "风痹（疼痛游走不定）",
-      "寒痹(冷痛剧烈",
-      "得温稍减)",
-      "湿痹(酸沉重着",
-      "阴雨天加重)"
+      "肾阳虚引起的症状",
+      "经期不调",
+      "风寒",
+      "血虚"
     ],
     "reference_prescription": "蠲痹汤",
     "reference_herbs": [
@@ -11557,34 +12043,47 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of dispersing cold, dispelling wind, eliminating dampness, and relieving pain.",
-      "It has the effects of dispelling wind and eliminating dampness, unblocking impediment and relieving pain.",
-      "It has the effects of tonifying fire to assist yang, guiding fire back to its origin, dispersing cold to relieve pain, and activating blood circulation to unblock menstruation.",
-      "It has the effects of dispelling wind-dampness, harmonizing blood and relaxing sinews, and clearing heat to promote diuresis.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of relieving pain, dispelling wind and removing dampness, dredging collaterals, and regulating qi flow.",
-      "It has the effects of moving qi, promoting diuresis, dispelling wind-dampness, and dredging collaterals.",
-      "It has the effects of relieving pain, reducing swelling, promoting tissue regeneration, moving qi and blood, and activating blood circulation to restore menstruation.",
-      "It has the effects of moving qi to relieve pain, and fortifying the spleen to promote digestion."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 11,
       "num_molecules": 47
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260733,
+      "full_symptom_pool": [
+        "寒冷引起的疼痛",
+        "风寒",
+        "风湿引起的关节疼痛",
+        "经络不畅",
+        "肾阳虚引起的症状",
+        "血瘀引起的症状",
+        "小便不利",
+        "血虚",
+        "经期不调",
+        "便秘",
+        "脾气虚弱",
+        "肌肉抽搐",
+        "气滞引起的不适",
+        "疼痛",
+        "肿胀",
+        "血液循环不畅",
+        "气机不畅引起的不适",
+        "消化不良"
+      ]
     }
   },
   {
     "case_id": "S024",
-    "symptom_text_zh": "赤带带下色红质稠、口苦咽干、烦躁易怒、神疲乏力、舌红苔黄腻",
+    "symptom_text_zh": "月经失调、血虚、热毒引起的症状、血热引起的出血",
     "symptom_items_zh": [
-      "赤带带下色红质稠",
-      "口苦咽干",
-      "烦躁易怒",
-      "神疲乏力",
-      "舌红苔黄腻"
+      "月经失调",
+      "血虚",
+      "热毒引起的症状",
+      "血热引起的出血"
     ],
     "reference_prescription": "清肝止淋汤",
     "reference_herbs": [
@@ -11921,32 +12420,49 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of stopping bleeding, moistening dryness, nourishing blood, and replenishing yin.",
-      "It has the effects of clearing heat and cooling blood, activating blood circulation and dissipating blood stasis.",
-      "It has the effects of clearing heat and drying dampness, purging fire to eliminate steaming bone disorder, and resolving toxic sores.",
-      "It has the effects of tonifying the liver and kidneys, strengthening tendons and bones, dispelling stasis to unblock menstruation, and guiding blood downward.",
-      "It has the effects of relieving pain, moving qi to soothe the liver, preventing miscarriage, and regulating menstruation.",
-      "It has the effects of tonifying the spleen and stomach, harmonizing blood, calming the spirit, replenishing qi, and nourishing blood."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 9,
       "num_molecules": 41
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260734,
+      "full_symptom_pool": [
+        "肝气郁结",
+        "月经失调",
+        "多汗",
+        "血虚",
+        "便秘",
+        "肾精不足",
+        "阴虚",
+        "血热引起的出血",
+        "干燥引起的不适",
+        "热毒引起的症状",
+        "血瘀引起的症状",
+        "湿热引起的症状",
+        "疮疡肿痛",
+        "发热",
+        "肝肾不足引起的症状",
+        "筋骨无力",
+        "腹痛",
+        "流产",
+        "脾胃虚弱"
+      ]
     }
   },
   {
     "case_id": "S025",
-    "symptom_text_zh": "水疱簇集、色黄白、破溃渗液、疼痛剧烈、舌红苔黄腻",
+    "symptom_text_zh": "湿气引起的皮疹、寒证引起的疼痛、暑热不适、水肿、湿气引起的脾胃虚弱",
     "symptom_items_zh": [
-      "水疱簇集",
-      "色黄白",
-      "破溃渗液",
-      "疼痛剧烈",
-      "舌红苔黄腻"
+      "湿气引起的皮疹",
+      "寒证引起的疼痛",
+      "暑热不适",
+      "水肿",
+      "湿气引起的脾胃虚弱"
     ],
     "reference_prescription": "除湿胃苓汤",
     "reference_herbs": [
@@ -12392,36 +12908,54 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of drying dampness to fortify the spleen, dispelling wind, scattering cold, and improving vision.",
-      "It has the effects of drying dampness to eliminate phlegm, descending qi to relieve fullness.",
-      "It has the effects of harmonizing the stomach, descending rebellion to stop vomiting, regulating qi, and drying dampness to transform phlegm.",
-      "It has the effects of promoting diuresis and eliminating dampness.",
-      "It has the effects of promoting urination and clearing dampness-heat.",
-      "It has the effects of promoting diuresis, and clearing heat and draining dampness.",
-      "It has the effects of strengthening the spleen and tonifying qi, drying dampness and promoting diuresis, stopping sweating, and preventing miscarriage.",
-      "It has the effects of promoting diuresis to relieve strangury, clearing heat and relieving summerheat, and (when applied topically) astringing dampness and healing sores.",
-      "It has the effects of releasing the exterior and dispelling wind, overcoming dampness, and stopping convulsions.",
-      "It has the effects of purging fire to relieve vexation, clearing heat to promote diuresis, and cooling blood to detoxify.",
-      "It has the effects of activating blood circulation to unblock menstruation, and clearing heat to drain dampness.",
-      "It has the effects of tonifying fire to assist yang, guiding fire back to its origin, dispersing cold to relieve pain, and activating blood circulation to unblock menstruation.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs."
-    ],
     "statistics": {
       "num_symptom_items": 5,
       "num_reference_herbs": 13,
       "num_molecules": 51
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260735,
+      "full_symptom_pool": [
+        "湿气引起的脾胃虚弱",
+        "风寒引起的不适",
+        "视力模糊",
+        "腹胀",
+        "胃气失调引起的呕吐",
+        "气机不畅引起的不适",
+        "湿痰引起的症状",
+        "水肿",
+        "热毒引起的症状",
+        "脾气虚弱",
+        "湿气引起的多尿",
+        "多汗",
+        "暑热不适",
+        "湿气引起的皮疹",
+        "疮疡肿痛",
+        "外感风寒",
+        "湿气引起的肌痉挛",
+        "火热引起的烦躁",
+        "血瘀引起的症状",
+        "湿热引起的症状",
+        "肾阳虚引起的症状",
+        "寒证引起的疼痛",
+        "热毒引起的咳嗽",
+        "肌肉痉挛"
+      ]
     }
   },
   {
     "case_id": "S026",
-    "symptom_text_zh": "胸膈满闷、呼吸急促、肺胃失和：喘咳、呕吐、咳嗽",
+    "symptom_text_zh": "炎症引起的肿胀、高血糖、休克、口干舌燥、心火旺盛",
     "symptom_items_zh": [
-      "胸膈满闷",
-      "呼吸急促",
-      "肺胃失和：喘咳",
-      "呕吐",
-      "咳嗽"
+      "炎症引起的肿胀",
+      "高血糖",
+      "休克",
+      "口干舌燥",
+      "心火旺盛"
     ],
     "reference_prescription": "清燥救肺汤",
     "reference_herbs": [
@@ -12778,32 +13312,53 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of suppressing cough, relieving asthma, lowering blood sugar, and reducing inflammation.",
-      "It has the effects of improving vision, dispersing wind-heat, and clearing lung heat.",
-      "It has the effects of clearing heat and purging fire, exerting anti-inflammatory and anti-swelling actions, and quenching thirst to promote fluid production.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of greatly tonifying primordial qi, restoring pulses and securing collapse, tonifying the spleen and nourishing the lungs, promoting fluid production, and tranquilizing the mind.",
-      "It has the effects of moistening intestines to relieve constipation, tonifying blood, and dispelling wind.",
-      "It has the effects of stopping bleeding, moistening dryness, nourishing blood, and replenishing yin.",
-      "It has the effects of stopping cough and calming wheezing, moistening intestines to relieve constipation, and diffusing the lungs to release the exterior.",
-      "It has the effects of nourishing yin to promote fluid production, moistening the lungs, and clearing heart heat."
-    ],
     "statistics": {
       "num_symptom_items": 5,
       "num_reference_herbs": 9,
       "num_molecules": 38
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260736,
+      "full_symptom_pool": [
+        "咳嗽",
+        "哮喘",
+        "高血糖",
+        "炎症",
+        "视力模糊",
+        "风热引起的症状",
+        "肺热引起的症状",
+        "火毒引起的症状",
+        "炎症引起的肿胀",
+        "口干舌燥",
+        "脾气虚弱",
+        "热毒引起的咳嗽",
+        "痉挛性疼痛",
+        "脉弱",
+        "休克",
+        "疲劳无力",
+        "便秘",
+        "血虚",
+        "风邪引起的症状",
+        "出血",
+        "干燥引起的不适",
+        "阴虚",
+        "肺气虚弱",
+        "肺燥引起的咳嗽",
+        "心火旺盛"
+      ]
     }
   },
   {
     "case_id": "S027",
-    "symptom_text_zh": "痔核肿痛、便血血色鲜红、舌红苔黄腻、脉滑数、烦躁",
+    "symptom_text_zh": "脓肿、中焦胀满、肾精不足",
     "symptom_items_zh": [
-      "痔核肿痛",
-      "便血血色鲜红",
-      "舌红苔黄腻",
-      "脉滑数",
-      "烦躁"
+      "脓肿",
+      "中焦胀满",
+      "肾精不足"
     ],
     "reference_prescription": "凉血地黄汤",
     "reference_herbs": [
@@ -13260,34 +13815,56 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of sedation and hypnosis, analgesia, antipyresis and temperature reduction, liver protection, immunomodulation, anti-inflammation, and antiviral effects.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying.",
-      "It has the effects of regulating qi to relieve middle-jiao distension, moving stagnation to reduce bloating.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage.",
-      "It has the effects of clearing heat to purge fire, and cooling blood to stop bleeding.",
-      "It has the effects of cooling blood to stop bleeding, reducing swelling, promoting wound healing, and clearing heat to detoxify.",
-      "It has the effects of dispersing wind-cold, promoting eruption to relieve itching, and stopping bleeding.",
-      "It has the effects of clearing heat to generate fluids, reducing swelling and draining pus.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 3,
       "num_reference_herbs": 11,
       "num_molecules": 49
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260737,
+      "full_symptom_pool": [
+        "烦躁",
+        "失眠不安",
+        "疼痛",
+        "发热",
+        "肝脏受损",
+        "免疫力低下",
+        "炎症",
+        "病毒感染",
+        "月经失调",
+        "血瘀引起的症状",
+        "便秘",
+        "肾精不足",
+        "血虚",
+        "阴虚",
+        "火毒引起的症状",
+        "湿热引起的症状",
+        "气机不畅引起的不适",
+        "中焦胀满",
+        "出血",
+        "流产",
+        "肿胀",
+        "伤口愈合缓慢",
+        "风寒引起的不适",
+        "瘙痒",
+        "脓肿",
+        "脾气虚弱",
+        "热毒引起的咳嗽",
+        "痉挛性疼痛"
+      ]
     }
   },
   {
     "case_id": "S028",
-    "symptom_text_zh": "发热微恶寒、微呕、心下支结、四肢关节烦疼、风寒引起的不适",
+    "symptom_text_zh": "失眠不安、气血不调、热毒引起的咳嗽",
     "symptom_items_zh": [
-      "发热微恶寒",
-      "微呕",
-      "心下支结",
-      "四肢关节烦疼",
-      "风寒引起的不适"
+      "失眠不安",
+      "气血不调",
+      "热毒引起的咳嗽"
     ],
     "reference_prescription": "柴胡桂枝汤",
     "reference_herbs": [
@@ -13797,32 +14374,54 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of warming meridians and dredging collaterals, releasing the exterior, dispersing wind-cold, and unblocking yang.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage.",
-      "It has the effects of greatly tonifying primordial qi, restoring pulses and securing collapse, tonifying the spleen and nourishing the lungs, promoting fluid production, and tranquilizing the mind.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of descending rebellion to stop vomiting, drying dampness to transform phlegm, and dissipating masses to resolve stagnation.",
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of tonifying the spleen and stomach, harmonizing blood, calming the spirit, replenishing qi, and nourishing blood.",
-      "It has the effects of resolving phlegm to stop cough, descending rebellion to arrest vomiting, releasing the exterior, and dispersing wind-cold.",
-      "It has the effects of dispersing and reducing fever, soothing the liver, and lifting yang."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 3,
       "num_reference_herbs": 9,
       "num_molecules": 39
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260738,
+      "full_symptom_pool": [
+        "风寒引起的不适",
+        "经络不畅",
+        "阳气不足",
+        "热毒引起的症状",
+        "湿热引起的症状",
+        "出血",
+        "流产",
+        "元气不足",
+        "脉弱",
+        "脾肺虚弱",
+        "口干舌燥",
+        "失眠不安",
+        "脾气虚弱",
+        "热毒引起的咳嗽",
+        "痉挛性疼痛",
+        "逆气引起的呕吐",
+        "湿痰积聚",
+        "积块瘀滞",
+        "疼痛",
+        "经血不调",
+        "多汗",
+        "脾胃虚弱",
+        "气血不调",
+        "痰多引起的咳嗽",
+        "发热",
+        "肝郁气滞"
+      ]
     }
   },
   {
     "case_id": "S029",
-    "symptom_text_zh": "咳嗽喘急、喉中痰鸣、痰多稀白、恶寒无汗、舌苔白滑",
+    "symptom_text_zh": "咳嗽、水肿、心悸不安",
     "symptom_items_zh": [
-      "咳嗽喘急",
-      "喉中痰鸣",
-      "痰多稀白",
-      "恶寒无汗",
-      "舌苔白滑"
+      "咳嗽",
+      "水肿",
+      "心悸不安"
     ],
     "reference_prescription": "射干麻黄汤",
     "reference_herbs": [
@@ -14102,31 +14701,47 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of purging fire to detoxify, eliminating phlegm, and relieving sore throat, etc.",
-      "It has the effects of inducing sweating to disperse cold, diffusing the lungs to relieve wheezing, and promoting diuresis to reduce edema.",
-      "It has the effects of resolving phlegm to stop cough, descending rebellion to arrest vomiting, releasing the exterior, and dispersing wind-cold.",
-      "It has the effects of dispelling wind and scattering cold, unblocking orifices to relieve pain, and warming the lungs to transform retained fluid.",
-      "It has the effects of moistening the lungs to direct qi downward, and relieving cough and resolving phlegm.",
-      "It has the effects of astringing and consolidating, replenishing qi to promote fluid production, and tonifying the kidneys to calm the heart.",
-      "It has the effects of tonifying the spleen and stomach, harmonizing blood, calming the spirit, replenishing qi, and nourishing blood.",
-      "It has the effects of descending rebellion to stop vomiting, drying dampness to transform phlegm, and dissipating masses to resolve stagnation."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 3,
       "num_reference_herbs": 9,
       "num_molecules": 42
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260739,
+      "full_symptom_pool": [
+        "热毒引起的症状",
+        "痰多引起的症状",
+        "咽喉疼痛",
+        "风寒引起的发热",
+        "咳嗽",
+        "水肿",
+        "痰湿引起的症状",
+        "呕吐",
+        "恶寒",
+        "风寒引起的头痛",
+        "关节疼痛",
+        "干咳无痰",
+        "多汗",
+        "心悸不安",
+        "气虚",
+        "脾胃虚弱",
+        "气血不足",
+        "疼痛",
+        "肿块"
+      ]
     }
   },
   {
     "case_id": "S030",
-    "symptom_text_zh": "项背强急、汗出恶风、脉沉迟或伴轻微发热、舌淡红少津、热毒引起的症状",
+    "symptom_text_zh": "乳汁过多、热毒引起的便秘、阳气不足",
     "symptom_items_zh": [
-      "项背强急",
-      "汗出恶风",
-      "脉沉迟或伴轻微发热",
-      "舌淡红少津",
-      "热毒引起的症状"
+      "乳汁过多",
+      "热毒引起的便秘",
+      "阳气不足"
     ],
     "reference_prescription": "温脾丸",
     "reference_herbs": [
@@ -14450,33 +15065,51 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of clearing heat and drying dampness, purging fire to eliminate steaming bone disorder, and resolving toxic sores.",
-      "It has the effects of resolving food stagnation and stopping lactation.",
-      "It has the effects of scattering cold to relieve pain, descending rebellion to stop vomiting, and supporting yang to stop diarrhea.",
-      "It has the effects of tonifying fire to assist yang, guiding fire back to its origin, dispersing cold to relieve pain, and activating blood circulation to unblock menstruation.",
-      "It has the effects of warming the middle jiao, warming the lungs to transform retained fluid, restoring yang, tonifying yang, strengthening spleen yang, and unblocking collaterals.",
-      "It has the effects of dispelling wind and scattering cold, unblocking orifices to relieve pain, and warming the lungs to transform retained fluid.",
-      "It has the effects of tonifying the life-gate fire, warming and transforming cold-dampness, restoring yang, supplementing yang, and strengthening spleen yang.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of purging heat to unblock the intestines, cooling blood and detoxifying, and dispelling stasis to promote menstruation.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 3,
       "num_reference_herbs": 10,
       "num_molecules": 48
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260740,
+      "full_symptom_pool": [
+        "热毒引起的症状",
+        "湿气重引起的症状",
+        "骨蒸发热",
+        "痈肿疼痛",
+        "消化不良",
+        "乳汁过多",
+        "寒证引起的疼痛",
+        "呕吐",
+        "腹泻",
+        "阳虚引起的症状",
+        "经络不畅",
+        "脾胃虚寒",
+        "肺寒引起的咳嗽",
+        "阳气不足",
+        "寒湿引起的郁痛",
+        "肾阳虚引起的症状",
+        "寒湿引起的疼痛",
+        "血虚",
+        "痛经",
+        "便秘",
+        "热毒引起的便秘",
+        "月经失调",
+        "湿热引起的症状"
+      ]
     }
   },
   {
     "case_id": "S031",
-    "symptom_text_zh": "咳吐大量清稀涎沫、咽干但不欲饮、畏寒肢冷、舌淡苔白滑、脾胃虚弱",
+    "symptom_text_zh": "湿邪引起的症状、湿气重引起的症状、肺燥引起的咳嗽",
     "symptom_items_zh": [
-      "咳吐大量清稀涎沫",
-      "咽干但不欲饮",
-      "畏寒肢冷",
-      "舌淡苔白滑",
-      "脾胃虚弱"
+      "湿邪引起的症状",
+      "湿气重引起的症状",
+      "肺燥引起的咳嗽"
     ],
     "reference_prescription": "延年薯蓣酒",
     "reference_herbs": [
@@ -14761,31 +15394,49 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of tonifying the spleen and nourishing the stomach, promoting fluid production to benefit the lungs, and tonifying the kidneys to astringe essence.",
-      "It has the effects of strengthening the spleen and tonifying qi, drying dampness and promoting diuresis, stopping sweating, and preventing miscarriage.",
-      "It has the effects of astringing and consolidating, replenishing qi to promote fluid production, and tonifying the kidneys to calm the heart.",
-      "It has the effects of dispelling stasis to relieve pain, activating blood circulation to promote menstruation, and clearing the heart to relieve restlessness.",
-      "It has the effects of releasing the exterior and dispelling wind, overcoming dampness, and stopping convulsions.",
-      "It has the effects of tonifying and benefiting the liver and kidneys, astringing essence to secure collapse.",
-      "It has the effects of greatly tonifying primordial qi, restoring pulses and securing collapse, tonifying the spleen and nourishing the lungs, promoting fluid production, and tranquilizing the mind.",
-      "It has the effects of resolving phlegm to stop cough, descending rebellion to arrest vomiting, releasing the exterior, and dispersing wind-cold."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 3,
       "num_reference_herbs": 8,
       "num_molecules": 38
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260741,
+      "full_symptom_pool": [
+        "脾胃虚弱",
+        "肺燥引起的咳嗽",
+        "肾虚引起的症状",
+        "脾虚引起的消化不良",
+        "湿气重引起的症状",
+        "多汗",
+        "尿频尿急",
+        "心悸不安",
+        "瘀血引起的疼痛",
+        "月经失调",
+        "烦躁",
+        "外感风寒",
+        "湿邪引起的症状",
+        "肝肾不足引起的症状",
+        "遗精",
+        "元气不足",
+        "脉弱",
+        "肺燥引起的症状",
+        "痰湿引起的症状",
+        "呕吐"
+      ]
     }
   },
   {
     "case_id": "S032",
-    "symptom_text_zh": "呕吐泄泻、胸膈痞满、痰喘咳嗽、寒热交作、小便赤涩",
+    "symptom_text_zh": "气喘、脉弱、积块瘀滞、痰湿引起的症状",
     "symptom_items_zh": [
-      "呕吐泄泻",
-      "胸膈痞满",
-      "痰喘咳嗽",
-      "寒热交作",
-      "小便赤涩"
+      "气喘",
+      "脉弱",
+      "积块瘀滞",
+      "痰湿引起的症状"
     ],
     "reference_prescription": "六和汤",
     "reference_herbs": [
@@ -15222,34 +15873,54 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of drying dampness to eliminate phlegm, descending qi to relieve fullness.",
-      "It has the effects of resolving dampness to stimulate appetite, warming the spleen to stop diarrhea, and regulating qi to prevent miscarriage.",
-      "It has the effects of descending rebellion to stop vomiting, drying dampness to transform phlegm, and dissipating masses to resolve stagnation.",
-      "It has the effects of stopping cough and calming wheezing, moistening intestines to relieve constipation, and diffusing the lungs to release the exterior.",
-      "It has the effects of greatly tonifying primordial qi, restoring pulses and securing collapse, tonifying the spleen and nourishing the lungs, promoting fluid production, and tranquilizing the mind.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of promoting diuresis and draining dampness, strengthening the spleen and harmonizing the stomach, as well as calming the heart and tranquilizing the mind.",
-      "It has the effects of resolving turbidity with aromatic herbs, stimulating appetite to stop vomiting, and releasing the exterior to relieve summerheat.",
-      "It has the effects of resolving dampness, fortifying the spleen, and relieving summerheat.",
-      "It has the effects of pacifying the liver to relax sinews, and harmonizing the stomach to transform dampness.",
-      "It has the effects of resolving dampness to harmonize the middle jiao, inducing sweating, and promoting diuresis to reduce edema."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 11,
       "num_molecules": 43
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260742,
+      "full_symptom_pool": [
+        "湿热引起的症状",
+        "胸腹胀",
+        "消化不良",
+        "湿气引起的食欲不振",
+        "脾胃虚寒",
+        "呕吐",
+        "痰湿引起的症状",
+        "积块瘀滞",
+        "咳嗽",
+        "气喘",
+        "便秘",
+        "元气不足",
+        "脉弱",
+        "肺燥引起的症状",
+        "心悸不安",
+        "脾虚引起的消化不良",
+        "热毒引起的症状",
+        "痉挛性疼痛",
+        "尿量少",
+        "水肿",
+        "脾胃虚弱",
+        "湿浊引起的不适",
+        "胃寒引起的呕吐",
+        "肝气不舒",
+        "脾胃功能失调"
+      ]
     }
   },
   {
     "case_id": "S033",
-    "symptom_text_zh": "大便夹黏液脓血、排便后肛门坠胀感不减、胀痛或刺痛（便后暂缓）、肝气郁结、月经失调",
+    "symptom_text_zh": "疟疾、肝气郁结、湿热引起的症状、痉挛性疼痛",
     "symptom_items_zh": [
-      "大便夹黏液脓血",
-      "排便后肛门坠胀感不减",
-      "胀痛或刺痛（便后暂缓）",
+      "疟疾",
       "肝气郁结",
-      "月经失调"
+      "湿热引起的症状",
+      "痉挛性疼痛"
     ],
     "reference_prescription": "芍药汤",
     "reference_herbs": [
@@ -15707,32 +16378,55 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying.",
-      "It has the effects of killing parasites and resolving accumulation, descending qi, moving water, and stopping malaria.",
-      "It has the effects of moving qi to relieve pain, and fortifying the spleen to promote digestion.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of purging heat to unblock the intestines, cooling blood and detoxifying, and dispelling stasis to promote menstruation.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage.",
-      "It has the effects of warming meridians and dredging collaterals, releasing the exterior, dispersing wind-cold, and unblocking yang."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 9,
       "num_molecules": 41
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260743,
+      "full_symptom_pool": [
+        "肝气郁结",
+        "月经失调",
+        "多汗",
+        "血虚",
+        "经络不畅",
+        "疼痛",
+        "便秘",
+        "湿热引起的症状",
+        "炎症",
+        "肿胀",
+        "消化不良",
+        "腹胀",
+        "疟疾",
+        "气滞引起的不适",
+        "脾虚引起的消化不良",
+        "热毒引起的症状",
+        "痰湿引起的症状",
+        "痉挛性疼痛",
+        "热毒引起的便秘",
+        "血热引起的症状",
+        "出血",
+        "习惯性流产",
+        "寒湿引起的疼痛",
+        "风寒引起的不适",
+        "阳气不足"
+      ]
     }
   },
   {
     "case_id": "S034",
-    "symptom_text_zh": "头面焮红肿痛、咽喉肿痛、舌干口燥、初起憎寒壮热、呼吸急促",
+    "symptom_text_zh": "脾胃虚弱、热邪引起的症状、脉弱、脏腑功能失调、咽喉肿结",
     "symptom_items_zh": [
-      "头面焮红肿痛",
-      "咽喉肿痛",
-      "舌干口燥",
-      "初起憎寒壮热",
-      "呼吸急促"
+      "脾胃虚弱",
+      "热邪引起的症状",
+      "脉弱",
+      "脏腑功能失调",
+      "咽喉肿结"
     ],
     "reference_prescription": "普济消毒饮子",
     "reference_herbs": [
@@ -16228,37 +16922,65 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying.",
-      "It has the effects of greatly tonifying primordial qi, restoring pulses and securing collapse, tonifying the spleen and nourishing the lungs, promoting fluid production, and tranquilizing the mind.",
-      "It has the effects of transforming phlegm, moving qi to relieve middle-jiao distension, dispelling cold, fortifying the stomach, regulating qi, and drying dampness.",
-      "It has the effects of cooling blood to nourish yin, and purging fire to detoxify.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of clearing heat and detoxifying, reducing swelling and dissipating nodules",
-      "It has the effects of reducing swelling and toxic nodules, resolving stagnation, dispelling wind-heat, benefiting the throat, ventilating the lung, and promoting the eruption of rashes.",
-      "It has the effects of cooling blood, detoxifying, benefiting the throat, and clearing heat.",
-      "It has the effects of stopping bleeding, detoxifying, benefiting the throat, and clearing the lung.",
-      "It has the effects of resolving phlegm, dissipating nodules, benefiting the throat, dispelling wind and relieving spasm, clearing heat, and detoxifying.",
-      "It has the effects of sedation and hypnosis, analgesia, antipyresis and temperature reduction, liver protection, immunomodulation, anti-inflammation, and antiviral effects.",
-      "It has the effects of dispersing and reducing fever, soothing the liver, and lifting yang.",
-      "It has the effects of diffusing the lungs, relieving sore throat, eliminating phlegm, and draining pus."
-    ],
     "statistics": {
       "num_symptom_items": 5,
       "num_reference_herbs": 14,
       "num_molecules": 59
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260744,
+      "full_symptom_pool": [
+        "湿热引起的症状",
+        "热毒引起的症状",
+        "出血",
+        "习惯性流产",
+        "元气不足",
+        "脉弱",
+        "脾胃虚弱",
+        "肺燥引起的症状",
+        "心悸不安",
+        "痰湿引起的症状",
+        "中焦胀满",
+        "寒证引起的疼痛",
+        "气滞引起的不适",
+        "血热引起的症状",
+        "阴虚",
+        "脾虚引起的消化不良",
+        "痉挛性疼痛",
+        "热毒引起的肿胀",
+        "结节",
+        "肿胀",
+        "风热引起的症状",
+        "咽喉疼痛",
+        "肺热引起的症状",
+        "咽喉肿结",
+        "失眠不安",
+        "疼痛",
+        "发热",
+        "肝脏受损",
+        "免疫力低下",
+        "炎症",
+        "病毒感染",
+        "热邪引起的症状",
+        "脏腑功能失调",
+        "阳虚引起的症状",
+        "痰液过多",
+        "肺脓肿"
+      ]
     }
   },
   {
     "case_id": "S035",
-    "symptom_text_zh": "目赤肿痛：、畏光流泪、头痛鼻塞、眉骨酸胀、舌红苔薄黄",
+    "symptom_text_zh": "脾虚引起的消化不良、疼痛、目赤、湿邪引起的症状",
     "symptom_items_zh": [
-      "目赤肿痛：",
-      "畏光流泪",
-      "头痛鼻塞",
-      "眉骨酸胀",
-      "舌红苔薄黄"
+      "脾虚引起的消化不良",
+      "疼痛",
+      "目赤",
+      "湿邪引起的症状"
     ],
     "reference_prescription": "羌活胜风汤",
     "reference_herbs": [
@@ -16777,37 +17499,66 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of strengthening the spleen and tonifying qi, drying dampness and promoting diuresis, stopping sweating, and preventing miscarriage.",
-      "It has the effects of regulating qi to relieve middle-jiao distension, moving stagnation to reduce bloating.",
-      "It has the effects of dispersing cold, dispelling wind, eliminating dampness, and relieving pain.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of dispersing wind and eliminating dampness, unblocking orifices to relieve pain, and reducing swelling to drain pus.",
-      "It has the effects of dispelling wind and eliminating dampness, unblocking impediment and relieving pain.",
-      "It has the effects of releasing the exterior and dispelling wind, overcoming dampness, and stopping convulsions.",
-      "It has the effects of dispersing wind-heat, and descending qi to transform phlegm.",
-      "It has the effects of diffusing the lungs, relieving sore throat, eliminating phlegm, and draining pus.",
-      "It has the effects of dissipating wind-heat, clearing the head and eyes, and promoting eruption .",
-      "It has the effects of dispersing wind-cold, promoting eruption to relieve itching, and stopping bleeding.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of dispersing and reducing fever, soothing the liver, and lifting yang.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 14,
       "num_molecules": 63
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260745,
+      "full_symptom_pool": [
+        "脾虚引起的消化不良",
+        "湿热引起的症状",
+        "多汗",
+        "习惯性流产",
+        "中焦胀满",
+        "气滞引起的不适",
+        "消化不良",
+        "寒湿引起的疼痛",
+        "风寒引起的不适",
+        "疼痛",
+        "血瘀引起的症状",
+        "风湿引起的痛症",
+        "痛经",
+        "肿胀",
+        "肺脓肿",
+        "关节疼痛",
+        "经络不畅",
+        "湿邪引起的症状",
+        "痉挛",
+        "风热引起的症状",
+        "气逆引起的咳嗽",
+        "痰多引起的症状",
+        "肺热引起的症状",
+        "咽喉疼痛",
+        "痰液过多",
+        "风热引起的头痛",
+        "目赤",
+        "皮肤瘙痒",
+        "出血",
+        "热毒引起的症状",
+        "痰湿引起的症状",
+        "痉挛性疼痛",
+        "热邪引起的症状",
+        "肝郁气滞",
+        "脾胃功能失调",
+        "阳虚引起的症状",
+        "热毒引起的出血"
+      ]
     }
   },
   {
     "case_id": "S036",
-    "symptom_text_zh": "耳下、颈侧肿块、低热或不热、舌暗或有瘀斑、脉弦涩",
+    "symptom_text_zh": "痉挛性疼痛、咽喉疼痛、热毒引起的症状、肿胀",
     "symptom_items_zh": [
-      "耳下",
-      "颈侧肿块",
-      "低热或不热",
-      "舌暗或有瘀斑",
-      "脉弦涩"
+      "痉挛性疼痛",
+      "咽喉疼痛",
+      "热毒引起的症状",
+      "肿胀"
     ],
     "reference_prescription": "牛蒡甘桔汤",
     "reference_herbs": [
@@ -17156,31 +17907,47 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of reducing swelling and toxic nodules, resolving stagnation, dispelling wind-heat, benefiting the throat, ventilating the lung, and promoting the eruption of rashes.",
-      "It has the effects of diffusing the lungs, relieving sore throat, eliminating phlegm, and draining pus.",
-      "It has the effects of harmonizing the stomach, descending rebellion to stop vomiting, regulating qi, and drying dampness to transform phlegm.",
-      "It has the effects of clearing heat to generate fluids, reducing swelling and draining pus.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of promoting blood circulation to remove blood stasis and clearing heat and cooling blood.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of promoting blood circulation to remove blood stasis and reducing swelling to alleviate pain."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 9,
       "num_molecules": 37
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260746,
+      "full_symptom_pool": [
+        "肿胀",
+        "疼痛",
+        "咽喉疼痛",
+        "肺热引起的症状",
+        "痰液过多",
+        "肺脓肿",
+        "胃气上逆引起的呕吐",
+        "气滞引起的不适",
+        "热毒引起的肿胀",
+        "痰湿引起的症状",
+        "肿痛",
+        "湿热引起的症状",
+        "火毒引起的症状",
+        "毒素引起的症状",
+        "血瘀引起的症状",
+        "风湿引起的痛症",
+        "热毒引起的症状",
+        "脾虚引起的消化不良",
+        "痉挛性疼痛",
+        "血瘀引起的肿胀"
+      ]
     }
   },
   {
     "case_id": "S037",
-    "symptom_text_zh": "气血两虚、体型异常、脾肝不足、胎元不固、气虚引起的乏力",
+    "symptom_text_zh": "经络不畅、血虚、气虚引起的乏力",
     "symptom_items_zh": [
-      "气血两虚",
-      "体型异常",
-      "脾肝不足",
-      "胎元不固",
+      "经络不畅",
+      "血虚",
       "气虚引起的乏力"
     ],
     "reference_prescription": "泰山磐石散",
@@ -17740,34 +18507,60 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of greatly tonifying primordial qi, restoring pulses and securing collapse, tonifying the spleen and nourishing the lungs, promoting fluid production, and tranquilizing the mind.",
-      "It has the effects of tonifying qi to secure the exterior, stopping sweating, expelling toxins, promoting tissue regeneration, and inducing diuresis to reduce swelling.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of stopping bleeding, strengthening tendons and bones, tonifying the liver and kidneys, and unblocking collaterals.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of strengthening the spleen and tonifying qi, drying dampness and promoting diuresis, stopping sweating, and preventing miscarriage.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of resolving dampness to stimulate appetite, warming the spleen to stop diarrhea, and regulating qi to prevent miscarriage."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 3,
       "num_reference_herbs": 11,
       "num_molecules": 45
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260747,
+      "full_symptom_pool": [
+        "气虚引起的乏力",
+        "脉弱",
+        "脾肺功能不足",
+        "水肿",
+        "失眠不安",
+        "表虚自汗",
+        "血虚",
+        "月经失调",
+        "疼痛",
+        "便秘",
+        "血虚引起的出血",
+        "肝肾不足引起的症状",
+        "经络不畅",
+        "热毒引起的症状",
+        "湿热引起的症状",
+        "出血",
+        "习惯性流产",
+        "血瘀引起的症状",
+        "气滞引起的不适",
+        "风邪引起的症状",
+        "关节疼痛",
+        "肝郁气滞",
+        "血虚引起的月经失调",
+        "多汗",
+        "精血不足",
+        "阴虚",
+        "脾虚引起的消化不良",
+        "湿气重引起的症状",
+        "痰湿引起的症状",
+        "痉挛性疼痛",
+        "腹泻"
+      ]
     }
   },
   {
     "case_id": "S038",
-    "symptom_text_zh": "视物昏花、头晕目眩、五心烦热、血虚、月经失调",
+    "symptom_text_zh": "血虚、阳虚引起的症状、疼痛、习惯性流产",
     "symptom_items_zh": [
-      "视物昏花",
-      "头晕目眩",
-      "五心烦热",
       "血虚",
-      "月经失调"
+      "阳虚引起的症状",
+      "疼痛",
+      "习惯性流产"
     ],
     "reference_prescription": "滋阴降火汤",
     "reference_herbs": [
@@ -18314,33 +19107,54 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of clearing heat and drying dampness, purging fire to eliminate steaming bone disorder, and resolving toxic sores.",
-      "It has the effects of nourishing yin to promote fluid production, moistening the lungs, and clearing heart heat.",
-      "It has the effects of clearing heat and purging fire, promoting fluid production and moistening dryness.",
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage.",
-      "It has the effects of dispersing and reducing fever, soothing the liver, and lifting yang.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 11,
       "num_molecules": 48
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260748,
+      "full_symptom_pool": [
+        "血虚",
+        "月经失调",
+        "疼痛",
+        "便秘",
+        "血瘀引起的症状",
+        "气滞引起的不适",
+        "风邪引起的症状",
+        "关节疼痛",
+        "精血不足",
+        "阴虚",
+        "热毒引起的症状",
+        "湿热引起的症状",
+        "疮毒",
+        "肺燥引起的症状",
+        "燥热引起的症状",
+        "肝郁气滞",
+        "血虚引起的月经失调",
+        "多汗",
+        "出血",
+        "习惯性流产",
+        "发热",
+        "阳虚引起的症状",
+        "脾虚引起的消化不良",
+        "痰湿引起的症状",
+        "痉挛性疼痛"
+      ]
     }
   },
   {
     "case_id": "S039",
-    "symptom_text_zh": "眼部症状：眼睑红肿硬痛（眼胞红硬）、口干口臭、便秘尿黄、火热引起的烦躁、热毒引起的症状",
+    "symptom_text_zh": "口干舌燥、干燥引起的不适、疼痛、湿痰引起的症状",
     "symptom_items_zh": [
-      "眼部症状：眼睑红肿硬痛（眼胞红硬）",
-      "口干口臭",
-      "便秘尿黄",
-      "火热引起的烦躁",
-      "热毒引起的症状"
+      "口干舌燥",
+      "干燥引起的不适",
+      "疼痛",
+      "湿痰引起的症状"
     ],
     "reference_prescription": "清胃汤",
     "reference_herbs": [
@@ -18837,35 +19651,57 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of purging fire to relieve vexation, clearing heat to promote diuresis, and cooling blood to detoxify.",
-      "It has the effects of regulating qi to relieve middle-jiao distension, moving stagnation to reduce bloating.",
-      "It has the effects of descending qi, moistening the intestines to relieve constipation, calming wheezing, and dispelling cold.",
-      "It has the effects of clearing heat and purging fire, exerting anti-inflammatory and anti-swelling actions, and quenching thirst to promote fluid production.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying.",
-      "It has the effects of harmonizing the stomach, descending rebellion to stop vomiting, regulating qi, and drying dampness to transform phlegm.",
-      "It has the effects of clearing heat and detoxifying, reducing swelling and dissipating nodules",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of dispersing wind-cold, promoting eruption to relieve itching, and stopping bleeding.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage.",
-      "It has the effects of releasing the exterior and dispelling wind, overcoming dampness, and stopping convulsions.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 12,
       "num_molecules": 51
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260749,
+      "full_symptom_pool": [
+        "火热引起的烦躁",
+        "热毒引起的症状",
+        "小便不利",
+        "气滞引起的不适",
+        "咳嗽",
+        "炎症",
+        "干燥引起的不适",
+        "口干舌燥",
+        "湿热引起的症状",
+        "胃失和降引起的呕吐",
+        "气机不畅引起的不适·",
+        "湿痰引起的症状",
+        "热毒引起的肿胀",
+        "结节",
+        "血虚",
+        "月经失调",
+        "疼痛",
+        "便秘",
+        "风寒引起的不适",
+        "疹痒",
+        "出血",
+        "习惯性流产",
+        "外感风寒",
+        "风湿引起的痛症",
+        "痉挛",
+        "脾胃虚弱",
+        "痰湿引起的症状",
+        "痉挛性疼痛"
+      ]
     }
   },
   {
     "case_id": "S040",
-    "symptom_text_zh": "两胁胀闷疼痛、如弓弦紧绷、情绪抑郁加重、口苦咽干、肝血不足",
+    "symptom_text_zh": "元气不足、腹泻、气滞引起的不适、头目不适",
     "symptom_items_zh": [
-      "两胁胀闷疼痛",
-      "如弓弦紧绷",
-      "情绪抑郁加重",
-      "口苦咽干",
-      "肝血不足"
+      "元气不足",
+      "腹泻",
+      "气滞引起的不适",
+      "头目不适"
     ],
     "reference_prescription": "解郁汤",
     "reference_herbs": [
@@ -19243,32 +20079,55 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of greatly tonifying primordial qi, restoring pulses and securing collapse, tonifying the spleen and nourishing the lungs, promoting fluid production, and tranquilizing the mind.",
-      "It has the effects of strengthening the spleen and tonifying qi, drying dampness and promoting diuresis, stopping sweating, and preventing miscarriage.",
-      "It has the effects of promoting diuresis and draining dampness, strengthening the spleen and harmonizing the stomach, as well as calming the heart and tranquilizing the mind.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of regulating qi to relieve middle-jiao distension, moving stagnation to reduce bloating.",
-      "It has the effects of resolving dampness to stimulate appetite, warming the spleen to stop diarrhea, and regulating qi to prevent miscarriage.",
-      "It has the effects of purging fire to relieve vexation, clearing heat to promote diuresis, and cooling blood to detoxify.",
-      "It has the effects of dissipating wind-heat, clearing the head and eyes, and promoting eruption ."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 9,
       "num_molecules": 40
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260750,
+      "full_symptom_pool": [
+        "元气不足",
+        "脉弱",
+        "脾肺虚弱",
+        "干燥引起的不适",
+        "心悸不安",
+        "脾胃虚弱",
+        "湿气重引起的症状",
+        "多汗",
+        "习惯性流产",
+        "脾胃功能失调",
+        "血虚",
+        "月经失调",
+        "疼痛",
+        "便秘",
+        "肝郁气滞",
+        "血虚引起的月经失调",
+        "气滞引起的不适",
+        "腹泻",
+        "火热引起的烦躁",
+        "热毒引起的症状",
+        "小便不利",
+        "血热引起的症状",
+        "风热引起的症状",
+        "头目不适",
+        "疹出不畅"
+      ]
     }
   },
   {
     "case_id": "S041",
-    "symptom_text_zh": "发热头痛、但不恶寒反口渴、春夏温病高发季、起病急骤、咽痛心烦",
+    "symptom_text_zh": "血热引起的症状、阴虚、湿热引起的症状、脾胃虚弱、痉挛性疼痛",
     "symptom_items_zh": [
-      "发热头痛",
-      "但不恶寒反口渴",
-      "春夏温病高发季",
-      "起病急骤",
-      "咽痛心烦"
+      "血热引起的症状",
+      "阴虚",
+      "湿热引起的症状",
+      "脾胃虚弱",
+      "痉挛性疼痛"
     ],
     "reference_prescription": "柴葛解肌汤",
     "reference_herbs": [
@@ -19645,32 +20504,50 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of dispersing and reducing fever, soothing the liver, and lifting yang.",
-      "It has the effects of stopping diarrhea, uplifting yang, releasing the exterior, promoting fluid production to quench thirst, and venting rashes.\"",
-      "It has the effects of promoting blood circulation to remove blood stasis and clearing heat and cooling blood.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage.",
-      "It has the effects of clearing heat and purging fire, promoting fluid production and moistening dryness.",
-      "It has the effects of clearing heat to transform phlegm, relieving stagnation to dissipate nodules.",
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of clearing heat and cooling blood, activating blood circulation and dissipating blood stasis."
-    ],
     "statistics": {
       "num_symptom_items": 5,
       "num_reference_herbs": 9,
       "num_molecules": 40
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260751,
+      "full_symptom_pool": [
+        "发热",
+        "肝气不疏引起的症状",
+        "阳气下陷引起的症状",
+        "腹泻",
+        "气虚",
+        "津液不足",
+        "疹出不畅",
+        "血瘀引起的症状",
+        "热毒引起的症状",
+        "血热引起的症状",
+        "脾胃虚弱",
+        "痰湿引起的症状",
+        "痉挛性疼痛",
+        "湿热引起的症状",
+        "出血",
+        "习惯性流产",
+        "热痰引起的症状",
+        "气滞引起的不适",
+        "精血不足",
+        "阴虚"
+      ]
     }
   },
   {
     "case_id": "S042",
-    "symptom_text_zh": "急躁易怒、面红目赤、口苦咽干、头痛胁痛、或发疮疡",
+    "symptom_text_zh": "尿量少、血瘀引起的症状、发热、风邪引起的症状、月经失调",
     "symptom_items_zh": [
-      "急躁易怒",
-      "面红目赤",
-      "口苦咽干",
-      "头痛胁痛",
-      "或发疮疡"
+      "尿量少",
+      "血瘀引起的症状",
+      "发热",
+      "风邪引起的症状",
+      "月经失调"
     ],
     "reference_prescription": "柴胡清肝汤",
     "reference_herbs": [
@@ -20181,35 +21058,59 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of dispersing and reducing fever, soothing the liver, and lifting yang.",
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of promoting blood circulation to remove blood stasis and clearing heat and cooling blood.",
-      "It has the effects of reducing swelling and toxic nodules, resolving stagnation, dispelling wind-heat, benefiting the throat, ventilating the lung, and promoting the eruption of rashes.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of clearing heat and detoxifying, reducing swelling and dissipating nodules",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage.",
-      "It has the effects of purging fire to relieve vexation, clearing heat to promote diuresis, and cooling blood to detoxify.",
-      "It has the effects of clearing heat to generate fluids, reducing swelling and draining pus.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of releasing the exterior and dispelling wind, overcoming dampness, and stopping convulsions."
-    ],
     "statistics": {
       "num_symptom_items": 5,
       "num_reference_herbs": 12,
       "num_molecules": 51
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260752,
+      "full_symptom_pool": [
+        "发热",
+        "肝气不舒",
+        "阳气下陷引起的症状",
+        "精血不足",
+        "阴虚",
+        "血虚",
+        "月经失调",
+        "疼痛",
+        "便秘",
+        "血瘀引起的症状",
+        "热毒引起的症状",
+        "血热引起的症状",
+        "肿胀",
+        "结节",
+        "气滞引起的不适",
+        "风寒引起的不适",
+        "疹出不畅",
+        "风邪引起的症状",
+        "热毒引起的炎症",
+        "湿热引起的症状",
+        "出血",
+        "习惯性流产",
+        "热火旺盛引起的烦躁",
+        "尿量少",
+        "津液不足",
+        "水肿",
+        "脾胃虚弱",
+        "咳嗽",
+        "痉挛性疼痛",
+        "外感风寒",
+        "痉挛"
+      ]
     }
   },
   {
     "case_id": "S043",
-    "symptom_text_zh": "皮肤干燥脱屑、瘙痒无度、抓痕血痂、疹色偏红、遇热加重",
+    "symptom_text_zh": "热毒引起的症状、血虚、风邪引起的症状",
     "symptom_items_zh": [
-      "皮肤干燥脱屑",
-      "瘙痒无度",
-      "抓痕血痂",
-      "疹色偏红",
-      "遇热加重"
+      "热毒引起的症状",
+      "血虚",
+      "风邪引起的症状"
     ],
     "reference_prescription": "四物消风饮",
     "reference_herbs": [
@@ -20553,34 +21454,54 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of dispersing wind-cold, promoting eruption to relieve itching, and stopping bleeding.",
-      "It has the effects of releasing the exterior and dispelling wind, overcoming dampness, and stopping convulsions.",
-      "It has the effects of promoting blood circulation to remove blood stasis and clearing heat and cooling blood.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of clearing heat and drying dampness, dispelling wind and relieving itching, and detoxifying.",
-      "It has the effects of improving eyesight, removing nebula, dispersing wind-heat, benefiting the throat, relieving wind-induced spasm, and promoting eruptions.",
-      "It has the effects of dissipating wind-heat, clearing the head and eyes, and promoting eruption .",
-      "It has the effects of dispelling wind and eliminating dampness, unblocking impediment and relieving pain.",
-      "It has the effects of dispersing and reducing fever, soothing the liver, and lifting yang."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 3,
       "num_reference_herbs": 11,
       "num_molecules": 50
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260753,
+      "full_symptom_pool": [
+        "精血不足",
+        "阴虚",
+        "血虚",
+        "月经失调",
+        "疼痛",
+        "便秘",
+        "疹痒",
+        "出血",
+        "外感风寒",
+        "痉挛",
+        "血瘀引起的症状",
+        "热毒引起的症状",
+        "血热引起的症状",
+        "气滞引起的不适",
+        "风邪引起的症状",
+        "湿热引起的症状",
+        "目疾",
+        "翳障",
+        "风热引起的症状",
+        "眼疾",
+        "风湿引起的痛症",
+        "气滞血瘀",
+        "发热",
+        "肝气不舒",
+        "阳气下陷引起的症状"
+      ]
     }
   },
   {
     "case_id": "S044",
-    "symptom_text_zh": "瘙痒剧烈（夜甚）、抓痕血痂、皮肤干燥皲裂、心烦失眠、口干咽燥",
+    "symptom_text_zh": "热毒引起的症状、便秘、痉挛性疼痛、风热引起的痉挛",
     "symptom_items_zh": [
-      "瘙痒剧烈（夜甚）",
-      "抓痕血痂",
-      "皮肤干燥皲裂",
-      "心烦失眠",
-      "口干咽燥"
+      "热毒引起的症状",
+      "便秘",
+      "痉挛性疼痛",
+      "风热引起的痉挛"
     ],
     "reference_prescription": "地黄饮",
     "reference_herbs": [
@@ -20982,32 +21903,47 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of detoxifying, relieving pain and swelling, and moistening the intestines to relieve constipation.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of clearing heat and cooling blood, activating blood circulation and dissipating blood stasis.",
-      "It has the effects of cooling blood to nourish yin, and purging fire to detoxify.",
-      "It has the effects of pacifying the liver to relieve stagnation, activating blood circulation to dispel wind, improving vision, and stopping itching.",
-      "It has the effects of resolving phlegm, dissipating nodules, benefiting the throat, dispelling wind and relieving spasm, clearing heat, and detoxifying.",
-      "It has the effects of activating blood circulation to promote menstruation, dissipating blood stasis and alleviating pain.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 10,
       "num_molecules": 41
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260754,
+      "full_symptom_pool": [
+        "精血不足",
+        "阴虚",
+        "肿胀",
+        "疼痛",
+        "便秘",
+        "血虚",
+        "月经失调",
+        "热毒引起的症状",
+        "血瘀引起的症状",
+        "血热引起的症状",
+        "内外火热",
+        "肝郁气滞",
+        "眼疾",
+        "瘙痒",
+        "风热引起的痉挛",
+        "脾胃虚弱",
+        "湿热引起的症状",
+        "咳嗽",
+        "痉挛性疼痛"
+      ]
     }
   },
   {
     "case_id": "S045",
-    "symptom_text_zh": "鼻部及周围皮肤潮红、毛细血管扩张、面部油腻、或见丘疹脓疱、口干口苦",
+    "symptom_text_zh": "呕吐、气滞引起的不适、便秘",
     "symptom_items_zh": [
-      "鼻部及周围皮肤潮红",
-      "毛细血管扩张",
-      "面部油腻",
-      "或见丘疹脓疱",
-      "口干口苦"
+      "呕吐",
+      "气滞引起的不适",
+      "便秘"
     ],
     "reference_prescription": "凉血四物汤",
     "reference_herbs": [
@@ -21440,32 +22376,49 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of promoting blood circulation to remove blood stasis and clearing heat and cooling blood.",
-      "It has the effects of clearing heat and drying dampness, purging fire and detoxifying, stopping bleeding, and preventing miscarriage.",
-      "It has the effects of promoting diuresis, and clearing heat and draining dampness.",
-      "It has the effects of harmonizing the stomach, descending rebellion to stop vomiting, regulating qi, and drying dampness to transform phlegm.",
-      "It has the effects of activating blood circulation to promote menstruation, dissipating blood stasis and alleviating pain.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 3,
       "num_reference_herbs": 9,
       "num_molecules": 40
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260755,
+      "full_symptom_pool": [
+        "血虚",
+        "月经失调",
+        "疼痛",
+        "便秘",
+        "精血不足",
+        "阴虚",
+        "血瘀引起的症状",
+        "气滞引起的不适",
+        "风邪引起的症状",
+        "血热引起的症状",
+        "湿热引起的症状",
+        "火毒引起的症状",
+        "出血",
+        "习惯性流产",
+        "水肿",
+        "胃部不适",
+        "呕吐",
+        "痰湿引起的症状",
+        "脾胃虚弱",
+        "咳嗽",
+        "痉挛性疼痛"
+      ]
     }
   },
   {
     "case_id": "S046",
-    "symptom_text_zh": "胃脘症状：灼痛拒按、呕酸苦水、胁气上逆、阵发燥热伴畏寒、心窝部烧灼感",
+    "symptom_text_zh": "胃部不适、肝气不舒、血热引起的症状",
     "symptom_items_zh": [
-      "胃脘症状：灼痛拒按",
-      "呕酸苦水",
-      "胁气上逆",
-      "阵发燥热伴畏寒",
-      "心窝部烧灼感"
+      "胃部不适",
+      "肝气不舒",
+      "血热引起的症状"
     ],
     "reference_prescription": "滋水清肝饮",
     "reference_herbs": [
@@ -21860,34 +22813,55 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of pacifying the liver to relieve pain, nourishing blood to regulate menstruation, and astringing yin to stop sweating.",
-      "It has the effects of tonifying the liver, calming the mind, soothing the nerves, promoting fluid production, and astringing sweat.",
-      "It has the effects of tonifying and benefiting the liver and kidneys, astringing essence to secure collapse.",
-      "It has the effects of promoting diuresis and draining dampness, strengthening the spleen and harmonizing the stomach, as well as calming the heart and tranquilizing the mind.",
-      "It has the effects of tonifying the spleen and nourishing the stomach, promoting fluid production to benefit the lungs, and tonifying the kidneys to astringe essence.",
-      "It has the effects of dispersing and reducing fever, soothing the liver, and lifting yang.",
-      "It has the effects of purging fire to relieve vexation, clearing heat to promote diuresis, and cooling blood to detoxify.",
-      "It has the effects of clearing heat and cooling blood, activating blood circulation and dissipating blood stasis.",
-      "It has the effects of promoting urination and clearing dampness-heat."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 3,
       "num_reference_herbs": 11,
       "num_molecules": 46
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260756,
+      "full_symptom_pool": [
+        "精血不足",
+        "阴虚",
+        "血虚",
+        "月经失调",
+        "疼痛",
+        "便秘",
+        "肝阳上亢引起的头痛",
+        "多汗",
+        "肝肾不足引起的症状",
+        "失眠不安",
+        "神经衰弱",
+        "肝肾两虚",
+        "水肿",
+        "胃部不适",
+        "脾胃虚弱",
+        "胃虚引起的不适",
+        "肺虚引起的症状",
+        "肾虚引起的症状",
+        "发热",
+        "肝气不舒",
+        "阳气下陷引起的症状",
+        "热毒引起的不适",
+        "血热引起的症状",
+        "血瘀引起的症状",
+        "湿热引起的症状",
+        "尿路不畅"
+      ]
     }
   },
   {
     "case_id": "S047",
-    "symptom_text_zh": "寒战高热交替、骨节灼痛拒按、关节肿胀烦疼、屈伸不利、面色萎黄晦暗",
+    "symptom_text_zh": "热毒引起的烦躁、咳嗽、胃气上逆引起的呕吐、风湿引起的痛症",
     "symptom_items_zh": [
-      "寒战高热交替",
-      "骨节灼痛拒按",
-      "关节肿胀烦疼",
-      "屈伸不利",
-      "面色萎黄晦暗"
+      "热毒引起的烦躁",
+      "咳嗽",
+      "胃气上逆引起的呕吐",
+      "风湿引起的痛症"
     ],
     "reference_prescription": "宣痹汤",
     "reference_herbs": [
@@ -22098,32 +23072,52 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of dispelling wind and eliminating dampness, promoting diuresis to reduce edema, and alleviating pain.",
-      "It has the effects of stopping cough and calming wheezing, moistening intestines to relieve constipation, and diffusing the lungs to release the exterior.",
-      "It has the effects of promoting diuresis to relieve strangury, clearing heat and relieving summerheat, and (when applied topically) astringing dampness and healing sores.",
-      "It has the effects of clearing heat and detoxifying, reducing swelling and dissipating nodules",
-      "It has the effects of purging fire to relieve vexation, clearing heat to promote diuresis, and cooling blood to detoxify.",
-      "It has the effects of fortifying the spleen to drain dampness, relaxing sinews, alleviating impediment, draining pus, and clearing heat.",
-      "It has the effects of descending rebellion to stop vomiting, drying dampness to transform phlegm, and dissipating masses to resolve stagnation.",
-      "It has the effects of harmonizing the stomach, activating blood circulation and unblocking meridians, and dispelling wind and dampness.",
-      "It has the effects of clearing heat and detoxifying, promoting diuresis and reducing swelling, and removing dampness to relieve jaundice."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 9,
       "num_molecules": 31
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260757,
+      "full_symptom_pool": [
+        "风湿引起的痛症",
+        "水肿",
+        "疼痛",
+        "咳嗽",
+        "哮喘",
+        "便秘",
+        "肺热引起的症状",
+        "暑热不适",
+        "湿疹",
+        "伤口愈合缓慢",
+        "炎症",
+        "热毒引起的烦躁",
+        "血热引起的症状",
+        "脾胃虚弱",
+        "肌肉麻痹",
+        "脓肿",
+        "胃气上逆引起的呕吐",
+        "湿痰引起的症状",
+        "肿块",
+        "胃部不适",
+        "血瘀引起的症状",
+        "湿热引起的症状",
+        "黄疸"
+      ]
     }
   },
   {
     "case_id": "S048",
-    "symptom_text_zh": "胁下、脘腹积块瘀滞、痛处固定不移、卧则腹内坠胀、久泻不止",
+    "symptom_text_zh": "消化不良、血瘀引起的出血、咳嗽、风寒引起的头痛",
     "symptom_items_zh": [
-      "胁下",
-      "脘腹积块瘀滞",
-      "痛处固定不移",
-      "卧则腹内坠胀",
-      "久泻不止"
+      "消化不良",
+      "血瘀引起的出血",
+      "咳嗽",
+      "风寒引起的头痛"
     ],
     "reference_prescription": "膈下逐瘀汤",
     "reference_herbs": [
@@ -22564,35 +23558,46 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of activating blood circulation to relieve pain, resolving food stagnation, transforming stasis to stop bleeding, and detoxifying.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of activating blood circulation, promoting qi movement, dispelling wind, and relieving pain.",
-      "It has the effects of activating blood circulation to dispel stasis, and moistening intestines to relieve constipation.",
-      "It has the effects of clearing heat and cooling blood, activating blood circulation and dissipating blood stasis.",
-      "It has the effects of promoting blood circulation to remove blood stasis and clearing heat and cooling blood.",
-      "It has the effects of tonifying kidney yang and moving qi to relieve pain.",
-      "It has the effects of promoting blood circulation and removing blood stasis, regulating qi and relieving pain.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of relieving pain, moving qi to soothe the liver, preventing miscarriage, and regulating menstruation.",
-      "It has the effects of activating blood circulation to promote menstruation, dissipating blood stasis and alleviating pain.",
-      "It has the effects of regulating qi to relieve middle-jiao distension, moving stagnation to reduce bloating."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 12,
       "num_molecules": 57
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260758,
+      "full_symptom_pool": [
+        "血瘀引起的症状",
+        "消化不良",
+        "血瘀引起的出血",
+        "火毒引起的症状",
+        "便秘",
+        "气滞引起的不适",
+        "风寒引起的头痛",
+        "肌肉疼痛",
+        "热毒引起的症状",
+        "发热",
+        "肾阳虚引起的症状",
+        "脾胃虚弱",
+        "咳嗽",
+        "痉挛性疼痛",
+        "痛经",
+        "肝气郁结",
+        "月经失调"
+      ]
     }
   },
   {
     "case_id": "S049",
-    "symptom_text_zh": "咽喉肿痛、水呛、声嘶、咽部异物感、久病喑哑",
+    "symptom_text_zh": "精气不足、火毒感染、咳嗽、喉咙疼痛",
     "symptom_items_zh": [
-      "咽喉肿痛",
-      "水呛",
-      "声嘶",
-      "咽部异物感",
-      "久病喑哑"
+      "精气不足",
+      "火毒感染",
+      "咳嗽",
+      "喉咙疼痛"
     ],
     "reference_prescription": "会厌逐瘀汤",
     "reference_herbs": [
@@ -23012,33 +24017,51 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of activating blood circulation to dispel stasis, and moistening intestines to relieve constipation.",
-      "It has the effects of activating blood circulation to promote menstruation, dissipating blood stasis and alleviating pain.",
-      "It has the effects of tonifying the spleen and replenishing qi, clearing heat and detoxifying, dispelling phlegm and stopping cough, relieving spasm and alleviating pain, as well as harmonizing the actions of other herbs.",
-      "It has the effects of diffusing the lungs, relieving sore throat, eliminating phlegm, and draining pus.",
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of cooling blood to nourish yin, and purging fire to detoxify.",
-      "It has the effects of dispersing and reducing fever, soothing the liver, and lifting yang.",
-      "It has the effects of regulating qi to relieve middle-jiao distension, moving stagnation to reduce bloating.",
-      "It has the effects of promoting blood circulation to remove blood stasis and clearing heat and cooling blood."
-    ],
     "statistics": {
-      "num_symptom_items": 5,
+      "num_symptom_items": 4,
       "num_reference_herbs": 10,
       "num_molecules": 45
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260759,
+      "full_symptom_pool": [
+        "血瘀引起的症状",
+        "便秘",
+        "痛经",
+        "脾胃虚弱",
+        "热毒引起的症状",
+        "咳嗽",
+        "痉挛性疼痛",
+        "喉咙疼痛",
+        "痰多引起的症状",
+        "肺脓肿",
+        "精气不足",
+        "骨髓虚损",
+        "血虚",
+        "阴虚",
+        "气滞引起的不适",
+        "血热引起的症状",
+        "火毒感染",
+        "发热",
+        "肝气郁结",
+        "阳虚引起的症状",
+        "消化不良"
+      ]
     }
   },
   {
     "case_id": "S050",
-    "symptom_text_zh": "突发或渐进性耳聋、伴腰膝酸软、耳鸣如蝉、眼珠刺痛、转动时加重",
+    "symptom_text_zh": "筋骨疼痛、血虚、便秘、遗精、血瘀引起的症状",
     "symptom_items_zh": [
-      "突发或渐进性耳聋",
-      "伴腰膝酸软",
-      "耳鸣如蝉",
-      "眼珠刺痛",
-      "转动时加重"
+      "筋骨疼痛",
+      "血虚",
+      "便秘",
+      "遗精",
+      "血瘀引起的症状"
     ],
     "reference_prescription": "补肾活血汤",
     "reference_herbs": [
@@ -23315,22 +24338,38 @@
         ]
       }
     ],
-    "function_evidence_en": [
-      "It has the effects of tonifying essence and replenishing marrow, nourishing blood, and supplementing yin.",
-      "It has the effects of tonifying the liver and kidneys, strengthening tendons and bones, and preventing miscarriage (or stabilizing the fetus).",
-      "It has the effects of tonifying kidney yin, moistening the lungs, and nourishing the liver.",
-      "It has the effects of stopping diarrhea, tonifying kidney yin, securing essence, nourishing the liver to brighten the eyes, and preventing miscarriage.",
-      "It has the effects of nourishing blood, promoting blood circulation, regulating menstruation, relieving pain, and moistening intestines to relieve constipation.",
-      "It has the effects of activating blood circulation to relieve pain, reducing swelling, and promoting tissue regeneration.",
-      "It has the effects of tonifying and benefiting the liver and kidneys, astringing essence to secure collapse.",
-      "It has the effects of activating blood circulation to promote menstruation, dissipating blood stasis and alleviating pain.",
-      "It has the effects of dispelling wind and eliminating dampness, unblocking impediment and relieving pain.",
-      "It has the effects of tonifying kidney yang, replenishing essence and blood, and moistening the intestines to relieve constipation."
-    ],
     "statistics": {
       "num_symptom_items": 5,
       "num_reference_herbs": 10,
       "num_molecules": 43
+    },
+    "source": {
+      "file": "data/kg_sources/chufang.xlsx",
+      "sheet": "Sheet1",
+      "symptom_source_column": "Symptom",
+      "sampling_rule": "3-5 symptom phrases randomly sampled from the same prescription-level Symptom pool; Disease column not used.",
+      "random_seed": 20260760,
+      "full_symptom_pool": [
+        "精髓亏损",
+        "血虚",
+        "阴虚",
+        "肝肾不足引起的症状",
+        "筋骨疼痛",
+        "流产",
+        "肾阴虚",
+        "肺燥引起的症状",
+        "腹泻",
+        "遗精",
+        "肝虚引起的视力模糊",
+        "便秘",
+        "血瘀引起的肿胀",
+        "组织损伤",
+        "血瘀引起的症状",
+        "风湿引起的关节疼痛",
+        "肢体麻木",
+        "风寒引起的不适",
+        "肾阳虚引起的症状"
+      ]
     }
   }
 ]

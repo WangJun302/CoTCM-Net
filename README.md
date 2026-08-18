@@ -30,8 +30,6 @@ CoTCM/
       standard_50_symptom_set_flat.csv
       standard_50_symptom_set_summary.csv
   src/
-    data_build/
-      rebuild_50_symptom_set_from_symptom_only.py
     models/
       cotcm_moe_mor_t5.py
       cotcm_moe_t5_legacy.py
@@ -69,8 +67,6 @@ benchmark, not external clinical validation.
 - `src/models/cotcm_moe_mor_t5.py`: main CoTCM-Net model
 - `src/models/cotcm_moe_t5_legacy.py`: legacy ablation model
 - `src/train_cotcm_finetune.py`: training entry for the MoE-MoR-T5 fine-tuning
-- `src/data_build/rebuild_50_symptom_set_from_symptom_only.py`: reproducible
-  construction script for the 50-case internal benchmark
 
 ## Installation
 
