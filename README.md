@@ -153,7 +153,6 @@ python src/train_cotcm_finetune.py \
   --seed 1111
 ```
 
-
 ## Citation
 
 If you use this repository, please cite the associated CoTCM-Net manuscript.
